@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrPriest.Mps.Interests.Ingest", "BarrPriest.Mps.Interests.Ingest.csproj", "{0CCE62EC-6BE3-4BB0-BF29-247209EE1AB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrPriest.Mps.Interests.Ingest", "BarrPriest.Mps.Interests.Ingest\BarrPriest.Mps.Interests.Ingest.csproj", "{0CCE62EC-6BE3-4BB0-BF29-247209EE1AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrPriest.Mps.Interests.Tests", "BarrPriest.Mps.Interests.Tests\BarrPriest.Mps.Interests.Tests.csproj", "{64F3378C-7DA5-4C8C-AD31-DFBC6DC9A3CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0CCE62EC-6BE3-4BB0-BF29-247209EE1AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CCE62EC-6BE3-4BB0-BF29-247209EE1AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CCE62EC-6BE3-4BB0-BF29-247209EE1AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F3378C-7DA5-4C8C-AD31-DFBC6DC9A3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F3378C-7DA5-4C8C-AD31-DFBC6DC9A3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F3378C-7DA5-4C8C-AD31-DFBC6DC9A3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F3378C-7DA5-4C8C-AD31-DFBC6DC9A3CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

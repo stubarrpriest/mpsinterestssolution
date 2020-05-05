@@ -7,7 +7,7 @@ namespace BarrPriest.Mps.Interests.Ingest
     public class MoneyParser
     {
         private const string Pattern = "£[+-]?[0-9]{1,3}(?:,?[0-9]{3})*(?:\\.[0-9]{2})?";
-        
+
         public List<MoneyParseResult> Parse(string htmlInput)
         {
             var result = new List<MoneyParseResult>();
@@ -18,9 +18,9 @@ namespace BarrPriest.Mps.Interests.Ingest
 
             foreach (Match match in matches)
             {
-                result.Add(new MoneyParseResult(decimal.Parse(match.Value.Replace("£", ""))));
+                result.Add(new MoneyParseResult(decimal.Parse(match.Value.Replace("£", string.Empty))));
             }
-            
+
             return result;
         }
     }

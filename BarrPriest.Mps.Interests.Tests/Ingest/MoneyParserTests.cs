@@ -12,8 +12,8 @@ namespace BarrPriest.Mps.Interests.Tests.Ingest
         [Test]
         public void CanGetMoneyFromHtml()
         {
-            var sourceHtml =@"<p xmlns=""http://www.w3.org/1999/xhtml"" class=""indent"">17 October 2019, payment of £16,000 from Fiera Capital (UK) Ltd, 39 St James's Street, London SW1A 1JD, via Chartwell Partners Ltd, 26 High Street, Marlborough SN8 1LZ, for a speaking engagement. Hours: 4 hrs. Fee paid direct to charity. I consulted ACoBA about this one-off fee. (Registered 21 October 2019)</p>";
-            
+            var sourceHtml = @"<p xmlns=""http://www.w3.org/1999/xhtml"" class=""indent"">17 October 2019, payment of £16,000 from Fiera Capital (UK) Ltd, 39 St James's Street, London SW1A 1JD, via Chartwell Partners Ltd, 26 High Street, Marlborough SN8 1LZ, for a speaking engagement. Hours: 4 hrs. Fee paid direct to charity. I consulted ACoBA about this one-off fee. (Registered 21 October 2019)</p>";
+
             var result = new MoneyParser().Parse(sourceHtml);
 
             Assert.AreEqual(16000m, result[0].Amount);

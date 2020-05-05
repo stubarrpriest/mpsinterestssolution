@@ -6,11 +6,11 @@ namespace BarrPriest.Mps.Interests.Ingest
 {
     public class MoneyParseResult
     {
-        public decimal Amount { get; }
-
         public MoneyParseResult(decimal amount)
         {
-            Amount = amount;
+            this.Amount = amount;
         }
+
+        public decimal Amount { get; }
     }
 }

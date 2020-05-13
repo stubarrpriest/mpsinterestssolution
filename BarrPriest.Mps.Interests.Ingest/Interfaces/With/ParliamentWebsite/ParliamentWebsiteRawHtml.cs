@@ -9,7 +9,7 @@ using ScrapySharp.Network;
 
 namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
 {
-    public class ParliamentWebsiteRawHtml : IGetMpInterestRawHtml
+    public class ParliamentWebsiteRawHtml
     {
         private readonly ILogger<ParliamentWebsiteRawHtml> logger;
 

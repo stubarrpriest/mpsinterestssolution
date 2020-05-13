@@ -1,7 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
+using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -10,7 +13,64 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 {
     class Program
     {
+        private const string DataPath = @"c:\temp\mpsinterests\";
+
+        private const string RepoPath = @"c:\temp\mps\";
+
         static void Main(string[] args)
+        {
+            if (args[0].ToUpperInvariant() == "SCRAPE")
+            {
+                ScrapeWebsiteData();
+            }
+
+            if (args[0].ToUpperInvariant() == "GITUPDATE")
+            {
+                GitUpdate();
+            }
+        }
+
+        private static void GitUpdate()
+        {
+            var dataSource = new DirectoryStructureRawHtml();
+
+            var lastPublicationSet = string.Empty;
+
+            var lastPublicationDate = DateTime.MinValue;
+
+            var commitMessage = string.Empty;
+
+            foreach (var publicationSet in dataSource.PublicationSetsFrom(DataPath))
+            {
+                foreach (var rawData in dataSource.MpDataFrom(DataPath, publicationSet))
+                {
+                    if (lastPublicationSet == string.Empty)
+                    {
+                        lastPublicationSet = publicationSet;
+                    }
+
+                    if (lastPublicationDate == DateTime.MinValue)
+                    {
+                        lastPublicationDate = rawData.LikelyPublicationDate;
+                    }
+
+                    if (lastPublicationSet != publicationSet)
+                    {
+                        commitMessage = $"Add amendments to register made on {lastPublicationDate}";
+
+                        lastPublicationSet = publicationSet;
+
+                        lastPublicationDate = rawData.LikelyPublicationDate;
+                    }
+
+                    File.WriteAllText($"{RepoPath}\\{rawData.MpKey}.html", rawData.Html);
+                }
+            }
+        }
+
+
+
+        private static void ScrapeWebsiteData()
         {
             var serviceCollection = new ServiceCollection();
 
@@ -34,7 +94,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             {
                 var publicationSets = dataAcquirer.PublicationSetsInSessionListedAt($"{root}/{sessionPage}");
 
-                var localFolder = @"c:\temp\mpsinterests\";
+                var localFolder = DataPath;
 
                 foreach (var publicationSet in publicationSets)
                 {

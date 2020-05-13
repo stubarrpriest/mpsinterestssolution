@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
+namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With
 {
     public class RawHtmlData
     {
@@ -28,6 +28,16 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
             }
         }
 
+        public DateTime LikelyPublicationDate
+        {
+            get
+            {
+                var dateParts = new int[] { int.Parse(this.PublicationSet.Substring(0, 2)), int.Parse(this.PublicationSet.Substring(2, 2)), int.Parse(this.PublicationSet.Substring(4, 2)) };
+
+                return new DateTime(this.AssumedYearFromTwoCharacters(dateParts[0]), dateParts[1], dateParts[2]);
+            }
+        }
+
         public string MpKey
         {
             get { return this.uri != null ? this.uri.Segments.Last().Replace(".htm", string.Empty) : string.Empty; }
@@ -36,5 +46,10 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
         public DateTimeOffset Acquired { get; }
 
         public string Html { get; }
+
+        private int AssumedYearFromTwoCharacters(int datePart)
+        {
+            return 2000 + datePart;
+        }
     }
 }

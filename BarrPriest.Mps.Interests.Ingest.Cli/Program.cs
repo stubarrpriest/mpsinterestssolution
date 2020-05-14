@@ -1,13 +1,15 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
 using System.IO;
-using System.Runtime.CompilerServices;
+using System.Linq;
 using System.Text.Json;
+using AngleSharp.Html;
+using AngleSharp.Html.Parser;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
+using LibGit2Sharp;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+
 
 namespace BarrPriest.Mps.Interests.Ingest.Cli
 {
@@ -19,9 +21,17 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
         static void Main(string[] args)
         {
+            var serviceCollection = new ServiceCollection();
+
+            ConfigureServices(serviceCollection);
+
+            var serviceProvider = serviceCollection.BuildServiceProvider();
+
             if (args[0].ToUpperInvariant() == "SCRAPE")
             {
-                ScrapeWebsiteData();
+                var scraper = serviceProvider.GetService<HtmlScreenScraper>();
+
+                scraper.Scrape();
             }
 
             if (args[0].ToUpperInvariant() == "GITUPDATE")
@@ -40,7 +50,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
             var commitMessage = string.Empty;
 
-            foreach (var publicationSet in dataSource.PublicationSetsFrom(DataPath))
+            foreach (var publicationSet in dataSource.PublicationSetsFrom(DataPath).OrderBy(x => x))
             {
                 foreach (var rawData in dataSource.MpDataFrom(DataPath, publicationSet))
                 {
@@ -58,71 +68,53 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                     {
                         commitMessage = $"Add amendments to register made on {lastPublicationDate}";
 
+                        CommitAllFiles(RepoPath, commitMessage, lastPublicationDate);
+
+                        Console.WriteLine(commitMessage);
+
                         lastPublicationSet = publicationSet;
 
                         lastPublicationDate = rawData.LikelyPublicationDate;
                     }
 
-                    File.WriteAllText($"{RepoPath}\\{rawData.MpKey}.html", rawData.Html);
+                    File.WriteAllText($"{RepoPath}\\{rawData.MpKey}.html", FormatHtml(rawData.Html));
                 }
+
+                commitMessage = $"Add amendments to register made on {lastPublicationDate}";
             }
+
+            CommitAllFiles(RepoPath, commitMessage, lastPublicationDate);
         }
 
-
-
-        private static void ScrapeWebsiteData()
+        private static void CommitAllFiles(string directory, string message, DateTime date)
         {
-            var serviceCollection = new ServiceCollection();
+            using var repo = new Repository(directory);
 
-            ConfigureServices(serviceCollection);
+            Commands.Stage(repo, "*");
 
-            var serviceProvider = serviceCollection.BuildServiceProvider();
+            var signature = new Signature("Stuart Barr", "stuart.b@barrpriestltd.co.uk", new DateTimeOffset(date));
 
-            var dataAcquirer = serviceProvider.GetService<ParliamentWebsiteRawHtml>();
+            repo.Commit(message, signature, signature);
+        }
 
-            var root = "https://publications.parliament.uk/pa/cm/cmregmem";
+        private static string FormatHtml(string htmlInput)
+        {
+            var parsedDocument = new HtmlParser().ParseDocument(htmlInput);
 
-            var sessionPages = new string[]
-            {
-                "contents1617.htm",
-                "contents1719.htm",
-                "contents1920.htm",
-                "contents1921.htm"
-            };
+            var sw = new StringWriter();
 
-            foreach (var sessionPage in sessionPages)
-            {
-                var publicationSets = dataAcquirer.PublicationSetsInSessionListedAt($"{root}/{sessionPage}");
+            parsedDocument.ToHtml(sw, new PrettyMarkupFormatter());
 
-                var localFolder = DataPath;
-
-                foreach (var publicationSet in publicationSets)
-                {
-                    var publicationSetRoot = $"{root}/{publicationSet}";
-
-                    var links = dataAcquirer.LinksToIndividualMpPages($"{publicationSetRoot}/contents.htm");
-
-                    var result = dataAcquirer.MpDataFrom(publicationSetRoot, links);
-
-                    foreach (var mpData in result)
-                    {
-                        var fileContent = JsonSerializer.Serialize(mpData);
-
-                        var filePath = $"{localFolder}\\{mpData.PublicationSet}\\{mpData.MpKey}.json";
-
-                        var file = new FileInfo(filePath);
-
-                        file.Directory?.Create();
-
-                        File.WriteAllText(filePath, fileContent);
-                    }
-                }
-            }
+            return sw.ToString();
         }
 
         private static void ConfigureServices(IServiceCollection services)
         {
-            services.AddLogging(configure => configure.AddConsole()).AddTransient<ParliamentWebsiteRawHtml>();
+            services
+                .AddLogging(configure => configure.AddConsole())
+                .AddTransient<ParliamentWebsiteRawHtml>()
+                .AddTransient<HtmlScreenScraper>();
+
         }
     }
 }

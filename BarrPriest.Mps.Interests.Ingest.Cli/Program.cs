@@ -7,6 +7,7 @@ using AngleSharp.Html.Parser;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using LibGit2Sharp;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
@@ -21,9 +22,13 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
         static void Main(string[] args)
         {
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
+
             var serviceCollection = new ServiceCollection();
 
-            ConfigureServices(serviceCollection);
+            ConfigureServices(serviceCollection, configuration);
 
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
@@ -108,13 +113,13 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             return sw.ToString();
         }
 
-        private static void ConfigureServices(IServiceCollection services)
+        private static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
         {
             services
+                .Configure<IngestOptions>(configuration.GetSection("IngestOptions"))
                 .AddLogging(configure => configure.AddConsole())
                 .AddTransient<ParliamentWebsiteRawHtml>()
                 .AddTransient<HtmlScreenScraper>();
-
         }
     }
 }

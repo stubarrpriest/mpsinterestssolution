@@ -2,41 +2,42 @@
 using System.Text.Json;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace BarrPriest.Mps.Interests.Ingest.Cli
 {
     public class HtmlScreenScraper
     {
-        private const string DataPath = @"c:\temp\mpsinterests\";
+        private readonly string localDataPath;
 
-        private const string Root = "https://publications.parliament.uk/pa/cm/cmregmem";
+        private readonly string parliamentWebsiteRootDirectory;
 
-        private readonly string[] sessionPages = new string[]
-        {
-            "contents1617.htm",
-            "contents1719.htm",
-            "contents1920.htm",
-            "contents1921.htm"
-        };
+        private readonly string[] parliamentWebsiteSessionPageNames;
 
         private readonly ILogger<HtmlScreenScraper> logger;
 
         private readonly ParliamentWebsiteRawHtml dataAcquirer;
 
-        public HtmlScreenScraper(ILogger<HtmlScreenScraper> logger, ParliamentWebsiteRawHtml dataAcquirer)
+        public HtmlScreenScraper(ILogger<HtmlScreenScraper> logger, ParliamentWebsiteRawHtml dataAcquirer, IOptions<IngestOptions> options)
         {
             this.logger = logger;
 
             this.dataAcquirer = dataAcquirer;
+
+            this.localDataPath = options.Value.LocalDataPath;
+
+            this.parliamentWebsiteRootDirectory = options.Value.ParliamentWebsiteRootDirectory;
+
+            this.parliamentWebsiteSessionPageNames = options.Value.ParliamentWebsiteSessionPageNames;
         }
 
         public void Scrape()
         {
-            foreach (var sessionPage in this.sessionPages)
+            foreach (var sessionPage in this.parliamentWebsiteSessionPageNames)
             {
-                var publicationSets = dataAcquirer.PublicationSetsInSessionListedAt($"{Root}/{sessionPage}");
+                var publicationSets = dataAcquirer.PublicationSetsInSessionListedAt($"{parliamentWebsiteRootDirectory}/{sessionPage}");
 
-                var localFolder = DataPath;
+                var localFolder = localDataPath;
 
                 this.logger.LogInformation($"Scraping {publicationSets.Length} publication sets to {localFolder}");
 
@@ -44,7 +45,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                 {
                     this.logger.LogInformation($"Scraping {publicationSet}");
 
-                    var publicationSetRoot = $"{Root}/{publicationSet}";
+                    var publicationSetRoot = $"{parliamentWebsiteRootDirectory}/{publicationSet}";
 
                     var links = dataAcquirer.LinksToIndividualMpPages($"{publicationSetRoot}/contents.htm");
 

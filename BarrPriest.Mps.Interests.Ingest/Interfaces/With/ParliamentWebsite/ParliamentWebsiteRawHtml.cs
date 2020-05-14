@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using ScrapySharp.Extensions;
 using ScrapySharp.Network;
@@ -20,16 +21,16 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
             this.logger = logger;
         }
 
-        public RawHtmlData MpDataFrom(string url)
+        public async Task<RawHtmlData> MpDataFromAsync(string url)
         {
-            var mpInterestPage = this.browser.NavigateToPage(new Uri(url));
+            var mpInterestPage = await this.browser.NavigateToPageAsync(new Uri(url));
 
             var nodes = mpInterestPage.Html.CssSelect("div#mainTextBlock > p");
 
             return new RawHtmlData(url, DateTimeOffset.Now, nodes.MergeInParentNode("div").OuterHtml);
         }
 
-        public RawHtmlData[] MpDataFrom(string rootDirUrl, string[] mpUrls)
+        public async Task<RawHtmlData[]> MpDataFromAsync(string rootDirUrl, string[] mpUrls)
         {
             var rawData = new List<RawHtmlData>();
 
@@ -43,7 +44,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
 
                 this.logger.LogInformation($"Fetching {mpUrl}");
 
-                rawData.Add(this.MpDataFrom($"{rootDirUrl}/{mpUrl}"));
+                rawData.Add(await this.MpDataFromAsync($"{rootDirUrl}/{mpUrl}"));
 
                 stopWatch.Stop();
 
@@ -59,11 +60,11 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
             return rawData.ToArray();
         }
 
-        public string[] LinksToIndividualMpPages(string urlContentsPage)
+        public async Task<string[]> LinksToIndividualMpPagesAsync(string urlContentsPage)
         {
             var links = new List<string>();
 
-            var contentsPage = this.browser.NavigateToPage(new Uri(urlContentsPage));
+            var contentsPage = await this.browser.NavigateToPageAsync(new Uri(urlContentsPage));
 
             var nodes = contentsPage.Html.CssSelect("div#mainTextBlock > p > a");
 
@@ -81,11 +82,11 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite
             return links.ToArray();
         }
 
-        public string[] PublicationSetsInSessionListedAt(string urlSessionPage)
+        public async Task<string[]> PublicationSetsInSessionListedAtAsync(string urlSessionPage)
         {
             var links = new List<string>();
 
-            var contentsPage = this.browser.NavigateToPage(new Uri(urlSessionPage));
+            var contentsPage = await this.browser.NavigateToPageAsync(new Uri(urlSessionPage));
 
             var nodes = contentsPage.Html.CssSelect("div#maincontent a");
 

@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Text.Json;
+using System.Threading.Tasks;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -31,11 +32,11 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             this.parliamentWebsiteSessionPageNames = options.Value.ParliamentWebsiteSessionPageNames;
         }
 
-        public void Scrape()
+        public async Task Scrape()
         {
             foreach (var sessionPage in this.parliamentWebsiteSessionPageNames)
             {
-                var publicationSets = dataAcquirer.PublicationSetsInSessionListedAt($"{parliamentWebsiteRootDirectory}/{sessionPage}");
+                var publicationSets = await dataAcquirer.PublicationSetsInSessionListedAtAsync($"{parliamentWebsiteRootDirectory}/{sessionPage}");
 
                 var localFolder = localDataPath;
 
@@ -47,9 +48,9 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
                     var publicationSetRoot = $"{parliamentWebsiteRootDirectory}/{publicationSet}";
 
-                    var links = dataAcquirer.LinksToIndividualMpPages($"{publicationSetRoot}/contents.htm");
+                    var links = await dataAcquirer.LinksToIndividualMpPagesAsync($"{publicationSetRoot}/contents.htm");
 
-                    var result = dataAcquirer.MpDataFrom(publicationSetRoot, links);
+                    var result = await dataAcquirer.MpDataFromAsync(publicationSetRoot, links);
 
                     foreach (var mpData in result)
                     {
@@ -61,7 +62,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
                         file.Directory?.Create();
 
-                        File.WriteAllText(filePath, fileContent);
+                        await File.WriteAllTextAsync(filePath, fileContent);
                     }
                 }
             }

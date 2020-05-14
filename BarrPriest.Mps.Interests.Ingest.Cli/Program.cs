@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Threading.Tasks;
 using AngleSharp.Html;
 using AngleSharp.Html.Parser;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
@@ -20,7 +21,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
         private const string RepoPath = @"c:\temp\mps\";
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -36,7 +37,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             {
                 var scraper = serviceProvider.GetService<HtmlScreenScraper>();
 
-                scraper.Scrape();
+                await scraper.Scrape();
             }
 
             if (args[0].ToUpperInvariant() == "GITUPDATE")

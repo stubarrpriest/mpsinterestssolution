@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With;
-using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using NUnit.Framework;
 
 namespace BarrPriest.Mps.Interests.Tests.Ingest

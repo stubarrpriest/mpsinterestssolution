@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BarrPriest.Mps.Interests.Ingest;
+﻿using BarrPriest.Mps.Interests.Ingest;
 using NUnit.Framework;
 
 namespace BarrPriest.Mps.Interests.Tests.Ingest

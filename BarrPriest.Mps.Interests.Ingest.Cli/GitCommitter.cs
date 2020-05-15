@@ -9,7 +9,6 @@ using LibGit2Sharp;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-
 namespace BarrPriest.Mps.Interests.Ingest.Cli
 {
     public class GitCommitter
@@ -49,9 +48,9 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
             var commitMessage = string.Empty;
 
-            foreach (var publicationSet in dataSource.PublicationSetsFrom(this.localDataPath).OrderBy(x => x))
+            foreach (var publicationSet in this.dataSource.PublicationSetsFrom(this.localDataPath).OrderBy(x => x))
             {
-                foreach (var rawData in dataSource.MpDataFrom(this.localDataPath, publicationSet))
+                foreach (var rawData in this.dataSource.MpDataFrom(this.localDataPath, publicationSet))
                 {
                     if (lastPublicationSet == string.Empty)
                     {

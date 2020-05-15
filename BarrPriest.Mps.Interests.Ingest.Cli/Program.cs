@@ -7,9 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace BarrPriest.Mps.Interests.Ingest.Cli
 {
-    class Program
+    public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)

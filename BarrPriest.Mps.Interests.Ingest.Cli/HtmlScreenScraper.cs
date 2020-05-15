@@ -36,9 +36,9 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
         {
             foreach (var sessionPage in this.parliamentWebsiteSessionPageNames)
             {
-                var publicationSets = await dataAcquirer.PublicationSetsInSessionListedAtAsync($"{parliamentWebsiteRootDirectory}/{sessionPage}");
+                var publicationSets = await this.dataAcquirer.PublicationSetsInSessionListedAtAsync($"{this.parliamentWebsiteRootDirectory}/{sessionPage}");
 
-                var localFolder = localDataPath;
+                var localFolder = this.localDataPath;
 
                 this.logger.LogInformation($"Scraping {publicationSets.Length} publication sets to {localFolder}");
 
@@ -46,11 +46,11 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                 {
                     this.logger.LogInformation($"Scraping {publicationSet}");
 
-                    var publicationSetRoot = $"{parliamentWebsiteRootDirectory}/{publicationSet}";
+                    var publicationSetRoot = $"{this.parliamentWebsiteRootDirectory}/{publicationSet}";
 
-                    var links = await dataAcquirer.LinksToIndividualMpPagesAsync($"{publicationSetRoot}/contents.htm");
+                    var links = await this.dataAcquirer.LinksToIndividualMpPagesAsync($"{publicationSetRoot}/contents.htm");
 
-                    var result = await dataAcquirer.MpDataFromAsync(publicationSetRoot, links);
+                    var result = await this.dataAcquirer.MpDataFromAsync(publicationSetRoot, links);
 
                     foreach (var mpData in result)
                     {

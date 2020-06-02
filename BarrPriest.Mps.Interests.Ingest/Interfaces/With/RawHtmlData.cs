@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using HtmlAgilityPack;
+using ScrapySharp.Extensions;
 
 namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With
 {
@@ -46,5 +48,19 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With
         public DateTimeOffset Acquired { get; }
 
         public string Html { get; }
+
+        public string FilteredHtml
+        {
+            get
+            {
+                var allNodes = HtmlNode.CreateNode(this.Html);
+
+                var interestNodes = allNodes.CssSelect("p.indent");
+
+                interestNodes = interestNodes.Union(allNodes.CssSelect("p.indent2"));
+
+                return interestNodes.MergeInParentNode("div").OuterHtml;
+            }
+        }
     }
 }

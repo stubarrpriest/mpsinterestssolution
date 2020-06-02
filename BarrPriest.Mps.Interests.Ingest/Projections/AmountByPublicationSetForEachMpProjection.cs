@@ -27,7 +27,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
                 this.mpTotalsByPublicationSet.Add(rawHtmlData.MpKey, new Dictionary<string, PublicationSetTotal>());
             }
 
-            var amount = this.moneyParser.Parse(rawHtmlData.Html).Sum(x => x.Amount);
+            var amount = this.moneyParser.Parse(rawHtmlData.FilteredHtml).Sum(x => x.Amount);
 
             this.mpTotalsByPublicationSet[rawHtmlData.MpKey][rawHtmlData.PublicationSet] = new PublicationSetTotal(rawHtmlData.PublicationSet, amount);
         }

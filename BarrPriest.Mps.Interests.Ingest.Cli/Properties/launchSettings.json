@@ -2,7 +2,7 @@
   "profiles": {
     "BarrPriest.Mps.Interests.Ingest.Cli": {
       "commandName": "Project",
-      "commandLineArgs": "gitupdate"
+      "commandLineArgs": "output"
     }
   }
 }

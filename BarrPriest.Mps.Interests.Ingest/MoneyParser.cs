@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace BarrPriest.Mps.Interests.Ingest
 {
-    public class MoneyParser
+    public class MoneyParser : IParseMoneyFromHtml
     {
         private const string Pattern = "£[+-]?[0-9]{1,3}(?:,?[0-9]{3})*(?:\\.[0-9]{2})?";
 

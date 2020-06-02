@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
+using BarrPriest.Mps.Interests.Ingest.Projections;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -34,6 +35,13 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
                 await committer.AddAndCommitAllFiles();
             }
+
+            if (args[0].ToUpperInvariant() == "OUTPUT")
+            {
+                var outputGenerator = serviceProvider.GetService<GenerateSummaryOutput>();
+
+                await outputGenerator.MakeSummary();
+            }
         }
 
         private static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
@@ -44,7 +52,10 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                 .AddTransient<ParliamentWebsiteRawHtml>()
                 .AddTransient<HtmlScreenScraper>()
                 .AddTransient<DirectoryStructureRawHtml>()
-                .AddTransient<GitCommitter>();
+                .AddTransient<GitCommitter>()
+                .AddTransient<IParseMoneyFromHtml, MoneyParser>()
+                .AddTransient<AmountByPublicationSetForEachMpProjection>()
+                .AddTransient<GenerateSummaryOutput>();
         }
     }
 }

@@ -6,6 +6,10 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
 {
     public class PublicationSetTotal
     {
+        public PublicationSetTotal()
+        {
+        }
+
         public PublicationSetTotal(string publicationSet, decimal amount)
         {
             this.PublicationSet = publicationSet;
@@ -13,8 +17,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
             this.Amount = amount;
         }
 
-        public string PublicationSet { get; }
+        public string PublicationSet { get; set; }
 
-        public decimal Amount { get; }
+        public decimal Amount { get; set; }
     }
 }

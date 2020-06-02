@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.DirectoryStructure;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With.ParliamentWebsite;
 using BarrPriest.Mps.Interests.Ingest.Projections;
@@ -42,6 +43,13 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
                 await outputGenerator.MakeSummary();
             }
+
+            if (args[0].ToUpperInvariant() == "REPORT")
+            {
+                var outputGenerator = serviceProvider.GetService<SummaryConsole>();
+
+                Console.Write(await outputGenerator.ShowTopTwentyEarners());
+            }
         }
 
         private static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
@@ -55,6 +63,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                 .AddTransient<GitCommitter>()
                 .AddTransient<IParseMoneyFromHtml, MoneyParser>()
                 .AddTransient<AmountByPublicationSetForEachMpProjection>()
+                .AddTransient<DirectoryStructureOutputSummary>()
+                .AddTransient<SummaryConsole>()
                 .AddTransient<GenerateSummaryOutput>();
         }
     }

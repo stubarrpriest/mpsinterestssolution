@@ -13,5 +13,7 @@
         public string ParliamentWebsiteRootDirectory { get; set; }
 
         public string[] ParliamentWebsiteSessionPageNames { get; set; }
+
+        public string OutputSummaryFileName { get; set; }
     }
 }

@@ -32,9 +32,9 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With
         {
             get
             {
-                var dateParts = new int[] { int.Parse(this.PublicationSet.Substring(0, 2)), int.Parse(this.PublicationSet.Substring(2, 2)), int.Parse(this.PublicationSet.Substring(4, 2)) };
+                var publicationSetDate = new PublicationSetDate(this.PublicationSet);
 
-                return new DateTime(this.AssumedYearFromTwoCharacters(dateParts[0]), dateParts[1], dateParts[2]);
+                return publicationSetDate.LikelyPublicationDate;
             }
         }
 
@@ -46,10 +46,5 @@ namespace BarrPriest.Mps.Interests.Ingest.Interfaces.With
         public DateTimeOffset Acquired { get; }
 
         public string Html { get; }
-
-        private int AssumedYearFromTwoCharacters(int datePart)
-        {
-            return 2000 + datePart;
-        }
     }
 }

@@ -20,6 +20,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
         private readonly string localDataPath;
 
+        private readonly string outputSummaryFileName;
+
         public GenerateSummaryOutput(
             ILogger<GenerateSummaryOutput> logger,
             DirectoryStructureRawHtml dataSource,
@@ -33,6 +35,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             this.projection = projection;
 
             this.localDataPath = options.Value.LocalDataPath;
+
+            this.outputSummaryFileName = options.Value.OutputSummaryFileName;
         }
 
         public async Task MakeSummary()
@@ -54,7 +58,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
         {
             var fileContent = JsonSerializer.Serialize(this.projection.Result());
 
-            var filePath = $"{this.localDataPath}\\output.json";
+            var filePath = $"{this.localDataPath}\\{this.outputSummaryFileName}";
 
             var file = new FileInfo(filePath);
 

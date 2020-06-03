@@ -48,7 +48,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             {
                 var outputGenerator = serviceProvider.GetService<SummaryConsole>();
 
-                Console.Write(await outputGenerator.ShowTopTwentyEarners());
+                Console.Write(await outputGenerator.ShowReport());
             }
         }
 

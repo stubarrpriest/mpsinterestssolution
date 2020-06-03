@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BarrPriest.Mps.Interests.Ingest.Cli\BarrPriest.Mps.Interests.Ingest.Cli.csproj" />
     <ProjectReference Include="..\BarrPriest.Mps.Interests.Ingest\BarrPriest.Mps.Interests.Ingest.csproj" />
   </ItemGroup>
 

@@ -40,23 +40,23 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
             var stringBuilder = new StringBuilder();
 
-            stringBuilder.AppendLine("Financial interests since 14/12/2015, top twenty entries by value");
+            stringBuilder.AppendLine("Financial interests since 14/12/2015");
 
-            stringBuilder.AppendLine(string.Format("|{0,20}|{1,20}|{2,20}", "Member's name", "Approximate value", "Most recent entry"));
-
-            stringBuilder.Append(this.ShowEarners(() => dataExplorer.TopEarnersOverall(20)));
-
-            stringBuilder.AppendLine("Current financial interests, top twenty entries by value");
+            stringBuilder.AppendLine("Entries with high value financial transactions");
 
             stringBuilder.AppendLine(string.Format("|{0,20}|{1,20}|{2,20}", "Member's name", "Approximate value", "Most recent entry"));
 
             stringBuilder.Append(this.ShowEarners(() => dataExplorer.TopCurrentEarners(20)));
 
-            stringBuilder.AppendLine("Historic financial interests, top twenty entries by value");
+            stringBuilder.AppendLine();
+
+            stringBuilder.AppendLine("Cumulative financial interests since 14/12/2015");
+
+            stringBuilder.AppendLine("Entries with high value financial transactions");
 
             stringBuilder.AppendLine(string.Format("|{0,20}|{1,20}|{2,20}", "Member's name", "Approximate value", "Most recent entry"));
 
-            stringBuilder.Append(this.ShowEarners(() => dataExplorer.TopHistoricalEarners(20)));
+            stringBuilder.Append(this.ShowEarners(() => dataExplorer.TopEarnersOverall(20)));
 
             return stringBuilder.ToString();
         }
@@ -73,6 +73,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
             }
 
             var total = decimal.Round(list.Sum(x => x.Amount));
+
+            total = decimal.Round(total / 1000000m) * 1000000m;
 
             stringBuilder.AppendLine(string.Format("|{0,20}| +/- {1,15}|", "TOTAL", total.ToString("C0")));
 

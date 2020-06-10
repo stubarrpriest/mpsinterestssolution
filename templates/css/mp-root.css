@@ -19,7 +19,11 @@ a, strong
     color: #3b3d4b;
 }
 
-h1, h2 {
+h1{
+    color: #3b3d4b;
+}
+
+h2 {
     color:#b49c73;
 }
 
@@ -29,6 +33,15 @@ p, li, blockquote
 	font-weight: normal;
 }
 
+h2.mp-detail-header {
+    color: #3b3d4b;
+}
+.mp-detail-header span {
+    white-space: nowrap; 
+    color:#b49c73;
+}
+
+/* See https://css-tricks.com/responsive-data-tables/ for responsive data tables */
 table { 
     width: 100%; 
     border-collapse: collapse; 
@@ -48,3 +61,10 @@ table {
     border: 1px solid #3b3d4b;  
     text-align: left; 
   }
+  tr.subtraction td.amount{
+      background-color: #d13b40;
+  }
+  tr.addition td.amount{
+    background-color: #4ec5a5;
+}
+

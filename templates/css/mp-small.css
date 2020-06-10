@@ -42,6 +42,10 @@ only screen and (max-width: 760px),
 	.mp-summary td:nth-of-type(2):before { content: "Current"; }
 	.mp-summary td:nth-of-type(3):before { content: "Since 2016"; }
     .mp-summary td:nth-of-type(4):before { content: "Last entry"; }
+
+    .mp-detail td:nth-of-type(1):before { content: "Publication"; }
+	.mp-detail td:nth-of-type(2):before { content: "Total declared"; }
+	.mp-detail td:nth-of-type(3):before { content: "Change"; }
     
     h1
     {

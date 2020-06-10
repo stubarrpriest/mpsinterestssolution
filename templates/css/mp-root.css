@@ -1,0 +1,50 @@
+body 
+{
+	font-size:16px/24px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li 
+{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+
+body
+{
+	background-color: #eff0f1;
+}
+
+a, strong
+{
+    color: #3b3d4b;
+}
+
+h1, h2 {
+    color:#b49c73;
+}
+
+p, li, blockquote
+{
+    color:#3b3d4b;
+	font-weight: normal;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #ccc ; 
+  }
+  th { 
+    background: #3b3d4b; 
+    color: #eff0f1; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #3b3d4b;  
+    text-align: left; 
+  }

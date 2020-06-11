@@ -1,0 +1,60 @@
+/* See https://css-tricks.com/responsive-data-tables/ for responsive data tables */
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	.mp-summary td:nth-of-type(1):before { content: "Name"; }
+	.mp-summary td:nth-of-type(2):before { content: "Current"; }
+	.mp-summary td:nth-of-type(3):before { content: "Since 2016"; }
+    .mp-summary td:nth-of-type(4):before { content: "Last entry"; }
+
+    .mp-detail td:nth-of-type(1):before { content: "Publication"; }
+	.mp-detail td:nth-of-type(2):before { content: "Total declared"; }
+	.mp-detail td:nth-of-type(3):before { content: "Change"; }
+    
+    h1
+    {
+        font-size: 2em;
+    }
+
+    h2, h3
+    {
+        font-size: 1.5em;
+        margin-top: 0.3em;
+    }
+}

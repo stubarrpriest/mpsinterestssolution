@@ -1,0 +1,36 @@
+
+    {
+        "identifier": "osborne_george",
+        "name": "OSBORNE, GEORGE",
+        "currentValue": 1500000,
+        "historicalValue": 1500000,
+        "publicationSets": [
+            {
+                "publicationSet": "170320",
+                "amount": 1243555.10,
+                "publicationDate": "2017-03-20T00:00:00Z",
+                "incomeBand": 1000000,
+                "change": 0,
+                "changeBand": 0
+            },
+            {
+                "publicationSet": "170410",
+                "amount": 1405145.10,
+                "publicationDate": "2017-04-10T00:00:00Z",
+                "incomeBand": 1000000,
+                "change": 0,
+                "changeBand": 150000
+            },
+            {
+                "publicationSet": "170502",
+                "amount": 1606823.10,
+                "publicationDate": "2017-05-02T00:00:00Z",
+                "incomeBand": 1500000,
+                "change": 0,
+                "changeBand": 200000
+            }
+        ]
+    }
+
+
+

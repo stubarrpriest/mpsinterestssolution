@@ -1,0 +1,32 @@
+    {
+        "identifier": "cox_geoffrey",
+        "name": "COX, GEOFFREY",
+        "currentValue": 250000,
+        "historicalValue": 2000000,
+        "publicationSets": [
+            {
+                "publicationSet": "200414",
+                "amount": 323799.68,
+                "publicationDate": "2020-04-14T00:00:00Z",
+                "incomeBand": 300000,
+                "change": 0,
+                "changeBand": 0
+            },
+            {
+                "publicationSet": "200427",
+                "amount": 323799.68,
+                "publicationDate": "2020-04-27T00:00:00Z",
+                "incomeBand": 300000,
+                "change": 0,
+                "changeBand": 0
+            },
+            {
+                "publicationSet": "200511",
+                "amount": 323799.68,
+                "publicationDate": "2020-05-11T00:00:00Z",
+                "incomeBand": 300000,
+                "change": 0,
+                "changeBand": 0
+            }
+        ]
+    }

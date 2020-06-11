@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IInterestSummary } from './interest.summary';
+import { IInterestCollection } from './interest.collection';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import {catchError, tap, map} from 'rxjs/operators';
@@ -7,16 +7,18 @@ import {catchError, tap, map} from 'rxjs/operators';
 @Injectable({
     providedIn: 'root'
 })
-export class InterestSummaryService{
+export class InterestCollectionService{
 
-    private interestUrl = 'api/interests/summary.json';
+    private interestUrl = 'api/interests/';
 
     constructor(private http: HttpClient){
 
     }
 
-    getInterests(): Observable<IInterestSummary[]> {
-        return this.http.get<IInterestSummary[]>(this.interestUrl).pipe(
+    getInterest(identifier: string): Observable<IInterestCollection> {
+        let url = this.interestUrl + identifier + '.json';
+        return this.http.get<IInterestCollection>(url).pipe(
+            tap(data => console.log('All: ' + JSON.stringify(data))),
             catchError(this.onError)
         );
     }

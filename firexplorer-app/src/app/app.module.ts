@@ -10,11 +10,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InterestsComponent } from './interests/interests.component';
 import { HttpClientModule } from '@angular/common/http';
+import { InterestsDetailComponent } from './interests/interests-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterestsComponent
+    InterestsComponent,
+    InterestsDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<h2 class="mp-detail-header">{{ interestCollection.name }}
+    <span>Current: +/- {{interestCollection.currentValue | currency : 'GBP' : 'symbol' : '1.0-0'}}</span>
+    &nbsp;<span>Since 2016: +/- {{interestCollection.historicalValue | currency : 'GBP' : 'symbol' : '1.0-0'}}</span>
+</h2>
+<table class="mp-detail">
+    <thead>
+        <tr>
+            <th>Publication</th>
+            <th>Total declared</th>
+            <th>Change (approx)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let snapshot of interestCollection.publicationSets' [ngClass]="{
+            'subtraction' : snapshot.changeBand < 0,
+        'nochange' : snapshot.changeBand == 0,
+        'addition' : snapshot.changeBand > 0}">
+            <td><a href="#">{{snapshot.publicationDate | date:'shortDate' }}</a></td>
+            <td>+/- {{snapshot.incomeBand | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
+            <td class="amount">{{snapshot.changeBand | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
+        </tr>
+    </tbody>
+</table>

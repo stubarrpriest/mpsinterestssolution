@@ -1,0 +1,33 @@
+
+    {
+        "identifier": "johnson_boris",
+        "name": "JOHNSON, BORIS",
+        "currentValue": 750000,
+        "historicalValue": 2000000,
+        "publicationSets": [
+            {
+                "publicationSet": "200414",
+                "amount": 1108740.57,
+                "publicationDate": "2020-04-14T00:00:00Z",
+                "incomeBand": 1000000,
+                "change": 0,
+                "changeBand": 0
+            },
+            {
+                "publicationSet": "200427",
+                "amount": 1108740.57,
+                "publicationDate": "2020-04-27T00:00:00Z",
+                "incomeBand": 1000000,
+                "change": 0,
+                "changeBand": 0
+            },
+            {
+                "publicationSet": "200511",
+                "amount": 942400.39,
+                "publicationDate": "2020-05-11T00:00:00Z",
+                "incomeBand": 750000,
+                "change": 0,
+                "changeBand": -150000
+            }
+        ]
+    }

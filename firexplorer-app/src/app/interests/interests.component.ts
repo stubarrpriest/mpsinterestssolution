@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { InterestSummaryService } from './interests.summary.service';
+import { IInterestSummary } from './interest.summary';
 
 @Component({
   selector: 'app-interests',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterestsComponent implements OnInit {
 
-  constructor() { }
+  errorMessage: string = "";
+
+  interestSummaries: IInterestSummary[];
+
+  constructor(private interestsSummaryService: InterestSummaryService) { }
 
   ngOnInit(): void {
-  }
-
+        this.interestsSummaryService.getInterests().subscribe({
+            next: interestSummaries => {
+                this.interestSummaries = interestSummaries;
+                console.log(`Interest summaries initialised ${interestSummaries.length}`);
+            },
+            error: err => {this.errorMessage = err}
+        });
+      }
 }

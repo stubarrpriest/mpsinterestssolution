@@ -1,0 +1,23 @@
+[
+    {
+        "identifier": "cox_geoffrey",
+        "name" : "COX, GEOFFREY",
+        "currentValue": 250000,
+        "historicalValue": 2000000,
+        "latestEntryData": "2020-05-11T00:00:00Z"
+    },
+    {
+        "identifier": "johnson_boris",
+        "name" : "JOHNSON, BORIS",
+        "currentValue": 750000,
+        "historicalValue": 2000000,
+        "latestEntryData": "2020-05-11T00:00:00Z"
+    },
+    {
+        "identifier": "osbourne_george",
+        "name" : "OSBORNE, GEORGE",
+        "currentValue": 1500000,
+        "historicalValue": 1500000,
+        "latestEntryData": "2017-05-02T00:00:00Z"
+    }
+]

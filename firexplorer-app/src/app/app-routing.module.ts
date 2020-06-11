@@ -6,7 +6,7 @@ import { InterestsComponent } from './interests/interests.component';
 const routes: Routes = [
       { path: 'list', component: InterestsComponent },
       { path: '', redirectTo: 'list', pathMatch: 'full' },
-      { path: '**', redirectTo: 'list', pathMatch: 'full' }
+      { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
 @NgModule({

@@ -18,7 +18,6 @@ export class InterestCollectionService{
     getInterest(identifier: string): Observable<IInterestCollection> {
         let url = this.interestUrl + identifier + '.json';
         return this.http.get<IInterestCollection>(url).pipe(
-            tap(data => console.log('All: ' + JSON.stringify(data))),
             catchError(this.onError)
         );
     }

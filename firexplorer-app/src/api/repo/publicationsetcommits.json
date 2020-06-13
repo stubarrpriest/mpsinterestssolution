@@ -1,0 +1,354 @@
+[
+    {
+        "publicationSet": "200511",
+        "commitId": "b5701c9ae789409ddf05cb10352cb2129f64e0ea"
+    },
+    {
+        "publicationSet": "200427",
+        "commitId": "2e68fe050b96d93bfe4af559600d00a998d4fa94"
+    },
+    {
+        "publicationSet": "200414",
+        "commitId": "450cb2e9af08ec9cf1d416ff7ed8063b61e6bc4e"
+    },
+    {
+        "publicationSet": "200330",
+        "commitId": "da1b45adaabeaa15c38df1067f122a2509479799"
+    },
+    {
+        "publicationSet": "200316",
+        "commitId": "c93933172d62aad902cf074115c5c3d8dc498a9b"
+    },
+    {
+        "publicationSet": "200302",
+        "commitId": "5cd97b3d95ceed4de6911e6d8fec726d49ba33ad"
+    },
+    {
+        "publicationSet": "200210",
+        "commitId": "3958b84cd2dca2eaef24b68eb8037552fbca3716"
+    },
+    {
+        "publicationSet": "200111",
+        "commitId": "4563d68f3ea784f6b3c44d3e762e3ec3d91a411d"
+    },
+    {
+        "publicationSet": "191105",
+        "commitId": "4d8847c17128966e35beb86a644ba7903b6d08fa"
+    },
+    {
+        "publicationSet": "191021",
+        "commitId": "d3f271fd269fa4b2695760d57390d730b4728802"
+    },
+    {
+        "publicationSet": "190930",
+        "commitId": "94de42b6da33506c9015302cc662accae7b265d8"
+    },
+    {
+        "publicationSet": "190916",
+        "commitId": "4c151fd1d317f762b216561ddf2df042463ac55d"
+    },
+    {
+        "publicationSet": "190902",
+        "commitId": "84fcf46f0f6a7efe964f99d9b04cde8621cbd22f"
+    },
+    {
+        "publicationSet": "190812",
+        "commitId": "ff1a53353279739fbb563e12cfbe98059a16a95d"
+    },
+    {
+        "publicationSet": "190729",
+        "commitId": "e5b90ccc8782730c394de82f90119e2007a34b05"
+    },
+    {
+        "publicationSet": "190715",
+        "commitId": "adbb1cc896d772170d056c0932d3ca92b0d6276a"
+    },
+    {
+        "publicationSet": "190701",
+        "commitId": "9ded5104155309da8a700ca6df38cc754fdefe6f"
+    },
+    {
+        "publicationSet": "190617",
+        "commitId": "528187d432e0ec54feebe78c888d9d4055cb42f0"
+    },
+    {
+        "publicationSet": "190603",
+        "commitId": "f95f76edebe75201208e702265a522ea91b5e5c9"
+    },
+    {
+        "publicationSet": "190520",
+        "commitId": "5a1c86778a1e27a0387195e08107e53481386554"
+    },
+    {
+        "publicationSet": "190507",
+        "commitId": "ac0f9acf92d65912fcac6d5e5b1371071f978936"
+    },
+    {
+        "publicationSet": "190423",
+        "commitId": "88da6e3043aa81ca3f14921bd9f075d31633f0ae"
+    },
+    {
+        "publicationSet": "190401",
+        "commitId": "71fc011743a4199419972d8408041ff2c30ebc3f"
+    },
+    {
+        "publicationSet": "190318",
+        "commitId": "3cbdbfd11cce0b65ef682a93bc63d08badebbbf3"
+    },
+    {
+        "publicationSet": "190304",
+        "commitId": "5f553c5724642803b28c6286f0790f903c79f3fa"
+    },
+    {
+        "publicationSet": "190218",
+        "commitId": "ad62b0d88072a2b6af7ae0aa82135765606fbfe7"
+    },
+    {
+        "publicationSet": "190204",
+        "commitId": "7f1dd24e43c889bf4b397bf8d812c5bb2ae026ad"
+    },
+    {
+        "publicationSet": "190121",
+        "commitId": "87d59ec1c2703a474e4d93984a89501e2ed7933c"
+    },
+    {
+        "publicationSet": "190107",
+        "commitId": "584dcbfc0982dc62a02edc3f1fba3365e55768ec"
+    },
+    {
+        "publicationSet": "181217",
+        "commitId": "04f5688038c278689d2bdc4b5566162f2304fe91"
+    },
+    {
+        "publicationSet": "181203",
+        "commitId": "512f84b113b69af62cd3043b8a42a7154c5c3071"
+    },
+    {
+        "publicationSet": "181119",
+        "commitId": "dffbbdecbe2d8d8b07dc7ece9e9b5de1480b8f87"
+    },
+    {
+        "publicationSet": "181029",
+        "commitId": "a3bfa2cb756a959d7ce97b3d0b499b2f820395bb"
+    },
+    {
+        "publicationSet": "181015",
+        "commitId": "ed29c9537efa9a1773572c81dd70797dd8136b8c"
+    },
+    {
+        "publicationSet": "181001",
+        "commitId": "0a1317ee93eaa61fb67bf58f235af8b6e4d8968f"
+    },
+    {
+        "publicationSet": "180910",
+        "commitId": "55a37076709737f07ae15fad427bdca404ae1981"
+    },
+    {
+        "publicationSet": "180813",
+        "commitId": "04c8d263556dcdf47abd465bda7b5300237dad1d"
+    },
+    {
+        "publicationSet": "180716",
+        "commitId": "68efdccac332a3c32b0bc49d33ee358b3cf9d9c6"
+    },
+    {
+        "publicationSet": "180702",
+        "commitId": "97493f63e4c567ced96de240dce4fd4a2650e898"
+    },
+    {
+        "publicationSet": "180618",
+        "commitId": "d6aa76801e4757383bb2bdf7b5604faf2fe18aa2"
+    },
+    {
+        "publicationSet": "180604",
+        "commitId": "5957ec440f6d150a86e357376759b725b9e2cc7f"
+    },
+    {
+        "publicationSet": "180514",
+        "commitId": "b93be984eb0805bc5818c0e1b0baeee9e4ced36f"
+    },
+    {
+        "publicationSet": "180430",
+        "commitId": "595b4b70832a3108ec6316f2d017b5387e0ebeee"
+    },
+    {
+        "publicationSet": "180416",
+        "commitId": "3abda3995ac5450551b15a252da18967fbf5985c"
+    },
+    {
+        "publicationSet": "180319",
+        "commitId": "911df90429cf1abe5bd35fc613f4f446afd1fbe6"
+    },
+    {
+        "publicationSet": "180305",
+        "commitId": "25d5630f396b3a0a0591e60f99c15048c3af0d72"
+    },
+    {
+        "publicationSet": "180219",
+        "commitId": "e3e8d4ec089704ad080fed0a0dd195c8bfb2da0d"
+    },
+    {
+        "publicationSet": "180205",
+        "commitId": "204eab8198c6a8acbc7dd4897536f09017683fd0"
+    },
+    {
+        "publicationSet": "180122",
+        "commitId": "036fa70b7333060e2a312359cd45a6b722edb18a"
+    },
+    {
+        "publicationSet": "180108",
+        "commitId": "910777958b5b457e22f4b204287a2edca4ad9281"
+    },
+    {
+        "publicationSet": "171211",
+        "commitId": "8132416a9f2a5291ee7d19621f3b11a38c507db5"
+    },
+    {
+        "publicationSet": "171127",
+        "commitId": "22dafedea2fd827473d791d702dfbc85c30fe27d"
+    },
+    {
+        "publicationSet": "171113",
+        "commitId": "8063e86d76e1c0d80b4ca7ba35e89d868e77eda9"
+    },
+    {
+        "publicationSet": "171023",
+        "commitId": "bda3ea40acefff6df0b9b30ada0945bcd317a080"
+    },
+    {
+        "publicationSet": "171009",
+        "commitId": "e64fb554eef73ef7276b6cee48b021c200c0690d"
+    },
+    {
+        "publicationSet": "170911",
+        "commitId": "e000dfd839982aaa6b1dce0f78444185b3ba4c52"
+    },
+    {
+        "publicationSet": "170829",
+        "commitId": "36ae2b0d3c02311447f40d5d38e15f0c712eb1ef"
+    },
+    {
+        "publicationSet": "170731",
+        "commitId": "1851b16da3ff543ce42580bc25182623e799f8df"
+    },
+    {
+        "publicationSet": "170707",
+        "commitId": "bfd88b4b61d274ca005356540b68b0448dd436dc"
+    },
+    {
+        "publicationSet": "170502",
+        "commitId": "04b771aa060e93c2e15603c9a0afaa02c1df5ff7"
+    },
+    {
+        "publicationSet": "170410",
+        "commitId": "28b5bfe10912ea32e8454a2c2a38804a279817c6"
+    },
+    {
+        "publicationSet": "170320",
+        "commitId": "fe3cea4e73be621383804d8a6997f7d7d7c3f6a0"
+    },
+    {
+        "publicationSet": "170306",
+        "commitId": "929faf514e10546d0e869c7aa2288d8275320935"
+    },
+    {
+        "publicationSet": "170220",
+        "commitId": "6a352a50c250e4855cc82fe5484765dd3ead1a67"
+    },
+    {
+        "publicationSet": "170206",
+        "commitId": "06a204ac488a05281d5e5767402709d9aff9012e"
+    },
+    {
+        "publicationSet": "170123",
+        "commitId": "127736634927fa8bf502f75272d632b0d862e319"
+    },
+    {
+        "publicationSet": "170109",
+        "commitId": "a65d25964c3740ff49ea85278d8b210dfc5b8fb0"
+    },
+    {
+        "publicationSet": "161219",
+        "commitId": "36c4b72857d266e2982a4b5429f26bd5e2a26c65"
+    },
+    {
+        "publicationSet": "161205",
+        "commitId": "2ee8ecb6f2805c2e46337f329794e677acbac07c"
+    },
+    {
+        "publicationSet": "161121",
+        "commitId": "4d8afc3fd213124b8c5108e8bff439e70e15272a"
+    },
+    {
+        "publicationSet": "161031",
+        "commitId": "a74073c7b9756a2b2e9f3e72c01b1494ffe6679f"
+    },
+    {
+        "publicationSet": "161017",
+        "commitId": "d144afed9ffa089a740d645aae5587c7d6367ae4"
+    },
+    {
+        "publicationSet": "161003",
+        "commitId": "4d8cec46c668ef6b40223b25090dcc5515695047"
+    },
+    {
+        "publicationSet": "160905",
+        "commitId": "95a6307d86e37430bbd9c8a91cb440cc5260f767"
+    },
+    {
+        "publicationSet": "160801",
+        "commitId": "f3827a9355d40e81ed3771ff9f52fc682ca62cff"
+    },
+    {
+        "publicationSet": "160711",
+        "commitId": "1be2f4254e4b20a139927fc32115e23484d9bb7e"
+    },
+    {
+        "publicationSet": "160627",
+        "commitId": "05e8a5997ce66738ebfa74ea854cd0f57c1a0a16"
+    },
+    {
+        "publicationSet": "160606",
+        "commitId": "5ddeaffb4c2b0882d30bbb491e2f5b8a010701d4"
+    },
+    {
+        "publicationSet": "160516",
+        "commitId": "0abf1a15640aad534dcb2e65ce0d4861394cc6e6"
+    },
+    {
+        "publicationSet": "160503",
+        "commitId": "94634f61a2692f9495e7020061eb9dc6a2f5bbf1"
+    },
+    {
+        "publicationSet": "160418",
+        "commitId": "d15b337f014dc7c22659c72da149ecbb0f81168f"
+    },
+    {
+        "publicationSet": "160321",
+        "commitId": "e988671ea4bf6b44a903aaf8c2d21fb0defa38af"
+    },
+    {
+        "publicationSet": "160307",
+        "commitId": "9a4ec0423e43791aff3d1e27c4e085dce9731513"
+    },
+    {
+        "publicationSet": "160222",
+        "commitId": "a9ecaa7d4a4af2eb7db408bbc357e510da1fcd2c"
+    },
+    {
+        "publicationSet": "160208",
+        "commitId": "b3d0129c423d0c65827eed73c8cf2979c8d10c18"
+    },
+    {
+        "publicationSet": "160125",
+        "commitId": "f852b902744cec52f10ba3e8348d101bf6d01cba"
+    },
+    {
+        "publicationSet": "160111",
+        "commitId": "43325197db67a1a64e29a772293d2e26e5a77301"
+    },
+    {
+        "publicationSet": "151214",
+        "commitId": "a41ca837e3fb56cebcace843041adbcae87759bb"
+    }
+]

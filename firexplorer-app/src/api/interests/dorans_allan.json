@@ -1,0 +1,73 @@
+{
+  "identifier": "dorans_allan",
+  "name": "DORANS, ALLAN",
+  "currentValue": 0,
+  "historicalValue": 0,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 0,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200427",
+      "amount": 0,
+      "publicationDate": "2020-04-27T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200414",
+      "amount": 0,
+      "publicationDate": "2020-04-14T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 0,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 0,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200302",
+      "amount": 0,
+      "publicationDate": "2020-03-02T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200210",
+      "amount": 0,
+      "publicationDate": "2020-02-10T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200111",
+      "amount": 0,
+      "publicationDate": "2020-01-11T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    }
+  ]
+}

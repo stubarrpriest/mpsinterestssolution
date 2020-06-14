@@ -1,0 +1,73 @@
+{
+  "identifier": "buchan_felicity",
+  "name": "BUCHAN, FELICITY",
+  "currentValue": 75000,
+  "historicalValue": 75000,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 87198.82,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200427",
+      "amount": 87198.82,
+      "publicationDate": "2020-04-27T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200414",
+      "amount": 87198.82,
+      "publicationDate": "2020-04-14T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 87198.82,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 87198.82,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 75000,
+      "change": 623.00,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "200302",
+      "amount": 86575.82,
+      "publicationDate": "2020-03-02T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200210",
+      "amount": 86575.82,
+      "publicationDate": "2020-02-10T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200111",
+      "amount": 86575.82,
+      "publicationDate": "2020-01-11T00:00:00",
+      "incomeBand": 75000,
+      "change": 86575.82,
+      "changeBand": 75000
+    }
+  ]
+}

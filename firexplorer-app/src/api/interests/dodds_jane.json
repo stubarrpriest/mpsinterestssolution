@@ -1,0 +1,49 @@
+{
+  "identifier": "dodds_jane",
+  "name": "DODDS, JANE",
+  "currentValue": 75000,
+  "historicalValue": 75000,
+  "latestEntryDate": "2019-11-05T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "191105",
+      "amount": 83029.41,
+      "publicationDate": "2019-11-05T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "191021",
+      "amount": 83029.41,
+      "publicationDate": "2019-10-21T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190930",
+      "amount": 83029.41,
+      "publicationDate": "2019-09-30T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190916",
+      "amount": 83029.41,
+      "publicationDate": "2019-09-16T00:00:00",
+      "incomeBand": 75000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190902",
+      "amount": 83029.41,
+      "publicationDate": "2019-09-02T00:00:00",
+      "incomeBand": 75000,
+      "change": 83029.41,
+      "changeBand": 75000
+    }
+  ]
+}

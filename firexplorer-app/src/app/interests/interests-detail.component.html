@@ -15,7 +15,7 @@
             'subtraction' : snapshot.changeBand < 0,
         'nochange' : snapshot.changeBand == 0,
         'addition' : snapshot.changeBand > 0}">
-            <td><a href="{{getDiffUrlFor(snapshot.publicationSet)}}">{{snapshot.publicationDate | date:'shortDate' }}</a> </td>
+            <td><a href="{{getDiffUrlFor(snapshot.publicationSetName)}}">{{snapshot.publicationDate | date:'shortDate' }}</a> </td>
             <td>+/- {{snapshot.incomeBand | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
             <td class="amount">{{snapshot.changeBand | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
         </tr>

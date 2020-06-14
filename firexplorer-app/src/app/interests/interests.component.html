@@ -13,7 +13,7 @@
             <td><a [routerLink]="['/detail', summary.identifier]">{{ summary.name }}</a></td>
             <td>+/- {{summary.currentValue | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
             <td>+/- {{summary.historicalValue | currency : 'GBP' : 'symbol' : '1.0-0'}}</td>
-            <td>{{summary.latestEntryData | date:'shortDate' }}</td>
+            <td>{{summary.latestEntryDate | date:'shortDate' }}</td>
         </tr>
     </tbody>
 </table>

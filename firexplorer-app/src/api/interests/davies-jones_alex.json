@@ -1,0 +1,73 @@
+{
+  "identifier": "davies-jones_alex",
+  "name": "DAVIES-JONES, ALEX",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 11250.30,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200427",
+      "amount": 11250.30,
+      "publicationDate": "2020-04-27T00:00:00",
+      "incomeBand": 10000,
+      "change": 100.00,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "200414",
+      "amount": 11150.30,
+      "publicationDate": "2020-04-14T00:00:00",
+      "incomeBand": 10000,
+      "change": 200.00,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 10950.30,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 10000,
+      "change": 110.00,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 10840.30,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 10000,
+      "change": 53.15,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "200302",
+      "amount": 10787.15,
+      "publicationDate": "2020-03-02T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200210",
+      "amount": 10787.15,
+      "publicationDate": "2020-02-10T00:00:00",
+      "incomeBand": 10000,
+      "change": 1864.65,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "200111",
+      "amount": 8922.50,
+      "publicationDate": "2020-01-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 8922.50,
+      "changeBand": 1000
+    }
+  ]
+}

@@ -1,23 +1,6393 @@
 [
-    {
-        "identifier": "cox_geoffrey",
-        "name" : "COX, GEOFFREY",
-        "currentValue": 250000,
-        "historicalValue": 2000000,
-        "latestEntryData": "2020-05-11T00:00:00Z"
-    },
-    {
-        "identifier": "johnson_boris",
-        "name" : "JOHNSON, BORIS",
-        "currentValue": 750000,
-        "historicalValue": 2000000,
-        "latestEntryData": "2020-05-11T00:00:00Z"
-    },
-    {
-        "identifier": "osbourne_george",
-        "name" : "OSBORNE, GEORGE",
-        "currentValue": 1500000,
-        "historicalValue": 1500000,
-        "latestEntryData": "2017-05-02T00:00:00Z"
-    }
+  {
+    "identifier": "cox_geoffrey",
+    "name": "COX, GEOFFREY",
+    "currentValue": 250000,
+    "historicalValue": 2000000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_boris",
+    "name": "JOHNSON, BORIS",
+    "currentValue": 750000,
+    "historicalValue": 2000000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "osborne_george",
+    "name": "OSBORNE, GEORGE",
+    "currentValue": 1500000,
+    "historicalValue": 1500000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "may_theresa",
+    "name": "MAY, THERESA",
+    "currentValue": 1000000,
+    "historicalValue": 1000000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "watson_tom",
+    "name": "WATSON, TOM",
+    "currentValue": 100000,
+    "historicalValue": 1000000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "clarke_kenneth",
+    "name": "CLARKE, KENNETH",
+    "currentValue": 75000,
+    "historicalValue": 750000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smith_owen",
+    "name": "SMITH, OWEN",
+    "currentValue": 0,
+    "historicalValue": 750000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "starmer_keir",
+    "name": "STARMER, KEIR",
+    "currentValue": 500000,
+    "historicalValue": 750000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "zahawi_nadhim",
+    "name": "ZAHAWI, NADHIM",
+    "currentValue": 10000,
+    "historicalValue": 750000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bruce_fiona",
+    "name": "BRUCE, FIONA",
+    "currentValue": 100000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clegg_nick",
+    "name": "CLEGG, NICK",
+    "currentValue": 250000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "cooper_yvette",
+    "name": "COOPER, YVETTE",
+    "currentValue": 100000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dorries_nadine",
+    "name": "DORRIES, NADINE",
+    "currentValue": 100000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gardiner_barry",
+    "name": "GARDINER, BARRY",
+    "currentValue": 100000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gove_michael",
+    "name": "GOVE, MICHAEL",
+    "currentValue": 250000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lammy_david",
+    "name": "LAMMY, DAVID",
+    "currentValue": 75000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "long-bailey_rebecca",
+    "name": "LONG-BAILEY, REBECCA",
+    "currentValue": 500000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mitchell_andrew",
+    "name": "MITCHELL, ANDREW",
+    "currentValue": 250000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rees-mogg_jacob",
+    "name": "REES-MOGG, JACOB",
+    "currentValue": 100000,
+    "historicalValue": 500000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burnham_andy",
+    "name": "BURNHAM, ANDY",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "corbyn_jeremy",
+    "name": "CORBYN, JEREMY",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davis_david",
+    "name": "DAVIS, DAVID",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "farron_tim",
+    "name": "FARRON, TIM",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fox_liam",
+    "name": "FOX, LIAM",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "garnier_edward",
+    "name": "GARNIER, EDWARD",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "harrington_richard",
+    "name": "HARRINGTON, RICHARD",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hunt_jeremy",
+    "name": "HUNT, JEREMY",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jarvis_dan",
+    "name": "JARVIS, DAN",
+    "currentValue": 25000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "javid_sajid",
+    "name": "JAVID, SAJID",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_alan",
+    "name": "JOHNSON, ALAN",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "khan_sadiq",
+    "name": "KHAN, SADIQ",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2016-05-03T00:00:00"
+  },
+  {
+    "identifier": "lewis_brandon",
+    "name": "LEWIS, BRANDON",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "nandy_lisa",
+    "name": "NANDY, LISA",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "penning_mike",
+    "name": "PENNING, MIKE",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "phillips_stephen",
+    "name": "PHILLIPS, STEPHEN",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2016-10-31T00:00:00"
+  },
+  {
+    "identifier": "quin_jeremy",
+    "name": "QUIN, JEREMY",
+    "currentValue": 0,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "raab_dominic",
+    "name": "RAAB, DOMINIC",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rayner_angela",
+    "name": "RAYNER, ANGELA",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "redwood_john",
+    "name": "REDWOOD, JOHN",
+    "currentValue": 50000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "reeves_rachel",
+    "name": "REEVES, RACHEL",
+    "currentValue": 25000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "soames_nicholas",
+    "name": "SOAMES, NICHOLAS",
+    "currentValue": 25000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "stewart_rory",
+    "name": "STEWART, RORY",
+    "currentValue": 250000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "timpson_edward",
+    "name": "TIMPSON, EDWARD",
+    "currentValue": 1000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tugendhat_tom",
+    "name": "TUGENDHAT, TOM",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "umunna_chuka",
+    "name": "UMUNNA, CHUKA",
+    "currentValue": 100000,
+    "historicalValue": 250000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "adams_nigel",
+    "name": "ADAMS, NIGEL",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "berry_james",
+    "name": "BERRY, JAMES",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "blackman_bob",
+    "name": "BLACKMAN, BOB",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blunt_crispin",
+    "name": "BLUNT, CRISPIN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "boles_nick",
+    "name": "BOLES, NICK",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "brady_graham",
+    "name": "BRADY, GRAHAM",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burns_conor",
+    "name": "BURNS, CONOR",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "carmichael_alistair",
+    "name": "CARMICHAEL, ALISTAIR",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cash_william",
+    "name": "CASH, WILLIAM",
+    "currentValue": 0,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "chalk_alex",
+    "name": "CHALK, ALEX",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cherry_joanna",
+    "name": "CHERRY, JOANNA",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clifton-brown_geoffrey",
+    "name": "CLIFTON-BROWN, GEOFFREY",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "djanogly_jonathan",
+    "name": "DJANOGLY, JONATHAN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "donelan_michelle",
+    "name": "DONELAN, MICHELLE",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "duncan-smith_iain",
+    "name": "DUNCAN-SMITH, IAIN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dunne_philip",
+    "name": "DUNNE, PHILIP",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "eagle_angela",
+    "name": "EAGLE, ANGELA",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "esterson_bill",
+    "name": "ESTERSON, BILL",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "field_mark",
+    "name": "FIELD, MARK",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "fuller_richard",
+    "name": "FULLER, RICHARD",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "goldsmith_zac",
+    "name": "GOLDSMITH, ZAC",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "graham_richard",
+    "name": "GRAHAM, RICHARD",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grant_helen",
+    "name": "GRANT, HELEN",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "green_kate",
+    "name": "GREEN, KATE",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "griffiths_andrew",
+    "name": "GRIFFITHS, ANDREW",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "halfon_robert",
+    "name": "HALFON, ROBERT",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hammond_philip",
+    "name": "HAMMOND, PHILIP",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hammond_stephen",
+    "name": "HAMMOND, STEPHEN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hart_simon",
+    "name": "HART, SIMON",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hayes_john",
+    "name": "HAYES, JOHN",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "healey_john",
+    "name": "HEALEY, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "heappey_james",
+    "name": "HEAPPEY, JAMES",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hollinrake_kevin",
+    "name": "HOLLINRAKE, KEVIN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hunt_tristram",
+    "name": "HUNT, TRISTRAM",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-01-09T00:00:00"
+  },
+  {
+    "identifier": "jayawardena_ranil",
+    "name": "JAYAWARDENA, RANIL",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jenkyns_andrea",
+    "name": "JENKYNS, ANDREA",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_joseph",
+    "name": "JOHNSON, JOSEPH",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "kendall_liz",
+    "name": "KENDALL, LIZ",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kyle_peter",
+    "name": "KYLE, PETER",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lamb_norman",
+    "name": "LAMB, NORMAN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "latham_pauline",
+    "name": "LATHAM, PAULINE",
+    "currentValue": 0,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lee_phillip",
+    "name": "LEE, PHILLIP",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "leigh_edward",
+    "name": "LEIGH, EDWARD",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "letwin_oliver",
+    "name": "LETWIN, OLIVER",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lewis_clive",
+    "name": "LEWIS, CLIVE",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lilley_peter",
+    "name": "LILLEY, PETER",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "lucas_caroline",
+    "name": "LUCAS, CAROLINE",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mak_alan",
+    "name": "MAK, ALAN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcdonald_andy",
+    "name": "MCDONALD, ANDY",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcdonnell_john",
+    "name": "MCDONNELL, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcgovern_alison",
+    "name": "MCGOVERN, ALISON",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcpartland_stephen",
+    "name": "MCPARTLAND, STEPHEN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mearns_ian",
+    "name": "MEARNS, IAN",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "menzies_mark",
+    "name": "MENZIES, MARK",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mercer_johnny",
+    "name": "MERCER, JOHNNY",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "miliband_edward",
+    "name": "MILIBAND, EDWARD",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morgan_nicky",
+    "name": "MORGAN, NICKY",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "morris_david",
+    "name": "MORRIS, DAVID",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morris_james",
+    "name": "MORRIS, JAMES",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mundell_david",
+    "name": "MUNDELL, DAVID",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "murray_ian",
+    "name": "MURRAY, IAN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "neill_robert",
+    "name": "NEILL, ROBERT",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "norman_jesse",
+    "name": "NORMAN, JESSE",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "paisley_ian",
+    "name": "PAISLEY, IAN",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "patel_priti",
+    "name": "PATEL, PRITI",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "paterson_owen",
+    "name": "PATERSON, OWEN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "phillips_jess",
+    "name": "PHILLIPS, JESS",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pursglove_tom",
+    "name": "PURSGLOVE, TOM",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "reynolds_jonathan",
+    "name": "REYNOLDS, JONATHAN",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "robertson_laurence",
+    "name": "ROBERTSON, LAURENCE",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rotheram_steve",
+    "name": "ROTHERAM, STEVE",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "rudd_amber",
+    "name": "RUDD, AMBER",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "ryan_joan",
+    "name": "RYAN, JOAN",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "salmond_alex",
+    "name": "SALMOND, ALEX",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "saville-roberts_liz",
+    "name": "SAVILLE-ROBERTS, LIZ",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_chloe",
+    "name": "SMITH, CHLOE",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_royston",
+    "name": "SMITH, ROYSTON",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stephenson_andrew",
+    "name": "STEPHENSON, ANDREW",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stevenson_john",
+    "name": "STEVENSON, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stevens_jo",
+    "name": "STEVENS, JO",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "streeting_wes",
+    "name": "STREETING, WES",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stuart_graham",
+    "name": "STUART, GRAHAM",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "swire_hugo",
+    "name": "SWIRE, HUGO",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "trevelyan_anne-marie",
+    "name": "TREVELYAN, ANNE-MARIE",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vaizey_edward",
+    "name": "VAIZEY, EDWARD",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "warburton_david",
+    "name": "WARBURTON, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wharton_james",
+    "name": "WHARTON, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "wiggin_bill",
+    "name": "WIGGIN, BILL",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "allin-khan_rosena",
+    "name": "ALLIN-KHAN, ROSENA",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hancock_matt",
+    "name": "HANCOCK, MATT",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "courts_robert",
+    "name": "COURTS, ROBERT",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bradley_ben",
+    "name": "BRADLEY, BEN",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cable_vince",
+    "name": "CABLE, VINCE",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "davey_edward",
+    "name": "DAVEY, EDWARD",
+    "currentValue": 100000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "moran_layla",
+    "name": "MORAN, LAYLA",
+    "currentValue": 50000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "swinson_jo",
+    "name": "SWINSON, JO",
+    "currentValue": 75000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "williams_paul",
+    "name": "WILLIAMS, PAUL",
+    "currentValue": 25000,
+    "historicalValue": 100000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "austin_ian",
+    "name": "AUSTIN, IAN",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "baker_steve",
+    "name": "BAKER, STEVE",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bellingham_henry",
+    "name": "BELLINGHAM, HENRY",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "benyon_richard",
+    "name": "BENYON, RICHARD",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "bercow_john",
+    "name": "BERCOW, JOHN",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-10-21T00:00:00"
+  },
+  {
+    "identifier": "berger_luciana",
+    "name": "BERGER, LUCIANA",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "berry_jake",
+    "name": "BERRY, JAKE",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bradley_karen",
+    "name": "BRADLEY, KAREN",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brake_tom",
+    "name": "BRAKE, TOM",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "burgon_richard",
+    "name": "BURGON, RICHARD",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burt_alistair",
+    "name": "BURT, ALISTAIR",
+    "currentValue": 0,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "byrne_liam",
+    "name": "BYRNE, LIAM",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "collins_damian",
+    "name": "COLLINS, DAMIAN",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "costa_alberto",
+    "name": "COSTA, ALBERTO",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "danczuk_simon",
+    "name": "DANCZUK, SIMON",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "double_steve",
+    "name": "DOUBLE, STEVE",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "doughty_stephen",
+    "name": "DOUGHTY, STEPHEN",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "duncan_alan",
+    "name": "DUNCAN, ALAN",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "elphicke_charlie",
+    "name": "ELPHICKE, CHARLIE",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "flint_caroline",
+    "name": "FLINT, CAROLINE",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "freer_mike",
+    "name": "FREER, MIKE",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "garnier_mark",
+    "name": "GARNIER, MARK",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ghani_nusrat",
+    "name": "GHANI, NUSRAT",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hodge_margaret",
+    "name": "HODGE, MARGARET",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "huq_rupa",
+    "name": "HUQ, RUPA",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hussain_imran",
+    "name": "HUSSAIN, IMRAN",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jenkin_bernard",
+    "name": "JENKIN, BERNARD",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_marcus",
+    "name": "JONES, MARCUS",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kwarteng_kwasi",
+    "name": "KWARTENG, KWASI",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "leslie_charlotte",
+    "name": "LESLIE, CHARLOTTE",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "lewis_ivan",
+    "name": "LEWIS, IVAN",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mccartney_karl",
+    "name": "MCCARTNEY, KARL",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "metcalfe_stephen",
+    "name": "METCALFE, STEPHEN",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pickles_eric",
+    "name": "PICKLES, ERIC",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "pritchard_mark",
+    "name": "PRITCHARD, MARK",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "quince_will",
+    "name": "QUINCE, WILL",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "robinson_mary",
+    "name": "ROBINSON, MARY",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "scully_paul",
+    "name": "SCULLY, PAUL",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sharma_virendra",
+    "name": "SHARMA, VIRENDRA",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sherriff_paula",
+    "name": "SHERRIFF, PAULA",
+    "currentValue": 0,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "skidmore_chris",
+    "name": "SKIDMORE, CHRIS",
+    "currentValue": 0,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_henry",
+    "name": "SMITH, HENRY",
+    "currentValue": 1000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "spencer_mark",
+    "name": "SPENCER, MARK",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stephens_chris",
+    "name": "STEPHENS, CHRIS",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stewart_iain",
+    "name": "STEWART, IAIN",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thornberry_emily",
+    "name": "THORNBERRY, EMILY",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tomlinson_michael",
+    "name": "TOMLINSON, MICHAEL",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wheeler_heather",
+    "name": "WHEELER, HEATHER",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brabin_tracy",
+    "name": "BRABIN, TRACY",
+    "currentValue": 10000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "olney_sarah",
+    "name": "OLNEY, SARAH",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clarke_simon",
+    "name": "CLARKE, SIMON",
+    "currentValue": 50000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hughes_eddie",
+    "name": "HUGHES, EDDIE",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jack_alister",
+    "name": "JACK, ALISTER",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_darren",
+    "name": "JONES, DARREN",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ross_douglas",
+    "name": "ROSS, DOUGLAS",
+    "currentValue": 25000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dodds_jane",
+    "name": "DODDS, JANE",
+    "currentValue": 75000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "buchan_felicity",
+    "name": "BUCHAN, FELICITY",
+    "currentValue": 75000,
+    "historicalValue": 75000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "abbott_diane",
+    "name": "ABBOTT, DIANE",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "abrahams_debbie",
+    "name": "ABRAHAMS, DEBBIE",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ali_rushanara",
+    "name": "ALI, RUSHANARA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "allan_lucy",
+    "name": "ALLAN, LUCY",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "amess_david",
+    "name": "AMESS, DAVID",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ansell_caroline",
+    "name": "ANSELL, CAROLINE",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bridgen_andrew",
+    "name": "BRIDGEN, ANDREW",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bryant_chris",
+    "name": "BRYANT, CHRIS",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "buckland_robert",
+    "name": "BUCKLAND, ROBERT",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "butler_dawn",
+    "name": "BUTLER, DAWN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cameron_david",
+    "name": "CAMERON, DAVID",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2016-09-05T00:00:00"
+  },
+  {
+    "identifier": "caulfield_maria",
+    "name": "CAULFIELD, MARIA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "champion_sarah",
+    "name": "CHAMPION, SARAH",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "chishti_rehman",
+    "name": "CHISHTI, REHMAN",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cleverly_james",
+    "name": "CLEVERLY, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "coaker_vernon",
+    "name": "COAKER, VERNON",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "coyle_neil",
+    "name": "COYLE, NEIL",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "crouch_tracey",
+    "name": "CROUCH, TRACEY",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cruddas_jon",
+    "name": "CRUDDAS, JON",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_chris",
+    "name": "DAVIES, CHRIS",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-06-17T00:00:00"
+  },
+  {
+    "identifier": "davies_james",
+    "name": "DAVIES, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_mims",
+    "name": "DAVIES, MIMS",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_philip",
+    "name": "DAVIES, PHILIP",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "de-piero_gloria",
+    "name": "DE-PIERO, GLORIA",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "dowden_oliver",
+    "name": "DOWDEN, OLIVER",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "doyle-price_jackie",
+    "name": "DOYLE-PRICE, JACKIE",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "drax_richard",
+    "name": "DRAX, RICHARD",
+    "currentValue": 50000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dromey_jack",
+    "name": "DROMEY, JACK",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "duddridge_james",
+    "name": "DUDDRIDGE, JAMES",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dugher_michael",
+    "name": "DUGHER, MICHAEL",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "evans_nigel",
+    "name": "EVANS, NIGEL",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fallon_michael",
+    "name": "FALLON, MICHAEL",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "field_frank",
+    "name": "FIELD, FRANK",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "frazer_lucy",
+    "name": "FRAZER, LUCY",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "glindon_mary",
+    "name": "GLINDON, MARY",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "goodman_helen",
+    "name": "GOODMAN, HELEN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gray_james",
+    "name": "GRAY, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "green_chris",
+    "name": "GREEN, CHRIS",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grieve_dominic",
+    "name": "GRIEVE, DOMINIC",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gyimah_sam",
+    "name": "GYIMAH, SAM",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hall_luke",
+    "name": "HALL, LUKE",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hands_greg",
+    "name": "HANDS, GREG",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "harman_harriet",
+    "name": "HARMAN, HARRIET",
+    "currentValue": 500,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hayes_helen",
+    "name": "HAYES, HELEN",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hoey_kate",
+    "name": "HOEY, KATE",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "holloway_adam",
+    "name": "HOLLOWAY, ADAM",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "howarth_gerald",
+    "name": "HOWARTH, GERALD",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "howell_john",
+    "name": "HOWELL, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "huddleston_nigel",
+    "name": "HUDDLESTON, NIGEL",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jenrick_robert",
+    "name": "JENRICK, ROBERT",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "keeley_barbara",
+    "name": "KEELEY, BARBARA",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kennedy_seema",
+    "name": "KENNEDY, SEEMA",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "kinnock_stephen",
+    "name": "KINNOCK, STEPHEN",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lavery_ian",
+    "name": "LAVERY, IAN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "leadsom_andrea",
+    "name": "LEADSOM, ANDREA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "leslie_chris",
+    "name": "LESLIE, CHRIS",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lopresti_jack",
+    "name": "LOPRESTI, JACK",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "loughton_tim",
+    "name": "LOUGHTON, TIM",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mackinlay_craig",
+    "name": "MACKINLAY, CRAIG",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "malthouse_kit",
+    "name": "MALTHOUSE, KIT",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mann_john",
+    "name": "MANN, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-10-21T00:00:00"
+  },
+  {
+    "identifier": "mann_scott",
+    "name": "MANN, SCOTT",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "milling_amanda",
+    "name": "MILLING, AMANDA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morris_grahame",
+    "name": "MORRIS, GRAHAME",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "offord_matthew",
+    "name": "OFFORD, MATTHEW",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "opperman_guy",
+    "name": "OPPERMAN, GUY",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "percy_andrew",
+    "name": "PERCY, ANDREW",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "powell_lucy",
+    "name": "POWELL, LUCY",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pow_rebecca",
+    "name": "POW, REBECCA",
+    "currentValue": 500,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "prisk_mark",
+    "name": "PRISK, MARK",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "qureshi_yasmin",
+    "name": "QURESHI, YASMIN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "reed_steve",
+    "name": "REED, STEVE",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rosindell_andrew",
+    "name": "ROSINDELL, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "shah_naz",
+    "name": "SHAH, NAZ",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "shapps_grant",
+    "name": "SHAPPS, GRANT",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sharma_alok",
+    "name": "SHARMA, ALOK",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sheerman_barry",
+    "name": "SHEERMAN, BARRY",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "shelbrooke_alec",
+    "name": "SHELBROOKE, ALEC",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "shuker_gavin",
+    "name": "SHUKER, GAVIN",
+    "currentValue": 0,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smeeth_ruth",
+    "name": "SMEETH, RUTH",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smith_cat",
+    "name": "SMITH, CAT",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_julian",
+    "name": "SMITH, JULIAN",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "solloway_amanda",
+    "name": "SOLLOWAY, AMANDA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "streeter_gary",
+    "name": "STREETER, GARY",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thomas_derek",
+    "name": "THOMAS, DEREK",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thomas_gareth",
+    "name": "THOMAS, GARETH",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tolhurst_kelly",
+    "name": "TOLHURST, KELLY",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vickers_martin",
+    "name": "VICKERS, MARTIN",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "villiers_theresa",
+    "name": "VILLIERS, THERESA",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "west_catherine",
+    "name": "WEST, CATHERINE",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whittaker_craig",
+    "name": "WHITTAKER, CRAIG",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whittingdale_john",
+    "name": "WHITTINGDALE, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "williamson_gavin",
+    "name": "WILLIAMSON, GAVIN",
+    "currentValue": 25000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "woodcock_john",
+    "name": "WOODCOCK, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "zeichner_daniel",
+    "name": "ZEICHNER, DANIEL",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "carden_dan",
+    "name": "CARDEN, DAN",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "docherty_leo",
+    "name": "DOCHERTY, LEO",
+    "currentValue": 10000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thomson_ross",
+    "name": "THOMSON, ROSS",
+    "currentValue": 1000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "butler_rob",
+    "name": "BUTLER, ROB",
+    "currentValue": 50000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cooper_daisy",
+    "name": "COOPER, DAISY",
+    "currentValue": 50000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "farris_laura",
+    "name": "FARRIS, LAURA",
+    "currentValue": 50000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "longhi_marco",
+    "name": "LONGHI, MARCO",
+    "currentValue": 50000,
+    "historicalValue": 50000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ahmed-sheikh_tasmina",
+    "name": "AHMED-SHEIKH, TASMINA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "andrew_stuart",
+    "name": "ANDREW, STUART",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ashworth_jonathan",
+    "name": "ASHWORTH, JONATHAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "barclay_stephen",
+    "name": "BARCLAY, STEPHEN",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "barwell_gavin",
+    "name": "BARWELL, GAVIN",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "bebb_guto",
+    "name": "BEBB, GUTO",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "beresford_paul",
+    "name": "BERESFORD, PAUL",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blackford_ian",
+    "name": "BLACKFORD, IAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blackman-woods_roberta",
+    "name": "BLACKMAN-WOODS, ROBERTA",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "blackwood_nicola",
+    "name": "BLACKWOOD, NICOLA",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "bone_peter",
+    "name": "BONE, PETER",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "borwick_victoria",
+    "name": "BORWICK, VICTORIA",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "brennan_kevin",
+    "name": "BRENNAN, KEVIN",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burden_richard",
+    "name": "BURDEN, RICHARD",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "burrowes_david",
+    "name": "BURROWES, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "cadbury_ruth",
+    "name": "CADBURY, RUTH",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cairns_alun",
+    "name": "CAIRNS, ALUN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cameron_lisa",
+    "name": "CAMERON, LISA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "carswell_douglas",
+    "name": "CARSWELL, DOUGLAS",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "clark_greg",
+    "name": "CLARK, GREG",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "coffey_therese",
+    "name": "COFFEY, THERESE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cooper_rosie",
+    "name": "COOPER, ROSIE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "crabb_stephen",
+    "name": "CRABB, STEPHEN",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "creagh_mary",
+    "name": "CREAGH, MARY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "creasy_stella",
+    "name": "CREASY, STELLA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cummins_judith",
+    "name": "CUMMINS, JUDITH",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_david-t-c",
+    "name": "DAVIES, DAVID-T-C",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "debbonaire_thangam",
+    "name": "DEBBONAIRE, THANGAM",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "drummond_flick",
+    "name": "DRUMMOND, FLICK",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "eustice_george",
+    "name": "EUSTICE, GEORGE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "evans_graham",
+    "name": "EVANS, GRAHAM",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "fernandes_suella",
+    "name": "FERNANDES, SUELLA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2018-03-19T00:00:00"
+  },
+  {
+    "identifier": "fitzpatrick_jim",
+    "name": "FITZPATRICK, JIM",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "flello_robert",
+    "name": "FLELLO, ROBERT",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "foster_kevin",
+    "name": "FOSTER, KEVIN",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fysh_marcus",
+    "name": "FYSH, MARCUS",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gapes_mike",
+    "name": "GAPES, MIKE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gethins_stephen",
+    "name": "GETHINS, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "glen_john",
+    "name": "GLEN, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "godsiff_roger",
+    "name": "GODSIFF, ROGER",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "goodwill_robert",
+    "name": "GOODWILL, ROBERT",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grayling_chris",
+    "name": "GRAYLING, CHRIS",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "greenwood_lilian",
+    "name": "GREENWOOD, LILIAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "greenwood_margaret",
+    "name": "GREENWOOD, MARGARET",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gummer_ben",
+    "name": "GUMMER, BEN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "gwynne_andrew",
+    "name": "GWYNNE, ANDREW",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "haigh_louise",
+    "name": "HAIGH, LOUISE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hancock_matthew",
+    "name": "HANCOCK, MATTHEW",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2016-07-11T00:00:00"
+  },
+  {
+    "identifier": "harper_mark",
+    "name": "HARPER, MARK",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "harris_rebecca",
+    "name": "HARRIS, REBECCA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hayman_sue",
+    "name": "HAYMAN, SUE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "heald_oliver",
+    "name": "HEALD, OLIVER",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "heaton-harris_chris",
+    "name": "HEATON-HARRIS, CHRIS",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hepburn_stephen",
+    "name": "HEPBURN, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "herbert_nick",
+    "name": "HERBERT, NICK",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hinds_damian",
+    "name": "HINDS, DAMIAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hodgson_sharon",
+    "name": "HODGSON, SHARON",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hollern_kate",
+    "name": "HOLLERN, KATE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hollobone_philip",
+    "name": "HOLLOBONE, PHILIP",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "howlett_ben",
+    "name": "HOWLETT, BEN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "jackson_stewart",
+    "name": "JACKSON, STEWART",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "jones_david",
+    "name": "JONES, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_kevan",
+    "name": "JONES, KEVAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kane_mike",
+    "name": "KANE, MIKE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kawczynski_daniel",
+    "name": "KAWCZYNSKI, DANIEL",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "knight_greg",
+    "name": "KNIGHT, GREG",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "knight_julian",
+    "name": "KNIGHT, JULIAN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lancaster_mark",
+    "name": "LANCASTER, MARK",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lefroy_jeremy",
+    "name": "LEFROY, JEREMY",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lewell-buck_emma",
+    "name": "LEWELL-BUCK, EMMA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lynch_holly",
+    "name": "LYNCH, HOLLY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mackintosh_david",
+    "name": "MACKINTOSH, DAVID",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "macneil_angus-brendan",
+    "name": "MACNEIL, ANGUS-BRENDAN",
+    "currentValue": 500,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mactaggart_fiona",
+    "name": "MACTAGGART, FIONA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "mahmood_shabana",
+    "name": "MAHMOOD, SHABANA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "main_anne",
+    "name": "MAIN, ANNE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "malhotra_seema",
+    "name": "MALHOTRA, SEEMA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "maskell_rachael",
+    "name": "MASKELL, RACHAEL",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "matheson_christian",
+    "name": "MATHESON, CHRISTIAN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "maynard_paul",
+    "name": "MAYNARD, PAUL",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mccarthy_kerry",
+    "name": "MCCARTHY, KERRY",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mccartney_jason",
+    "name": "MCCARTNEY, JASON",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcdonagh_siobhain",
+    "name": "MCDONAGH, SIOBHAIN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcfadden_pat",
+    "name": "MCFADDEN, PAT",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcginn_conor",
+    "name": "MCGINN, CONOR",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mills_nigel",
+    "name": "MILLS, NIGEL",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mordaunt_penny",
+    "name": "MORDAUNT, PENNY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morden_jessica",
+    "name": "MORDEN, JESSICA",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morris_anne-marie",
+    "name": "MORRIS, ANNE-MARIE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morton_wendy",
+    "name": "MORTON, WENDY",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "murray_sheryll",
+    "name": "MURRAY, SHERYLL",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "murrison_andrew",
+    "name": "MURRISON, ANDREW",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "nokes_caroline",
+    "name": "NOKES, CAROLINE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "onn_melanie",
+    "name": "ONN, MELANIE",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "pennycook_matthew",
+    "name": "PENNYCOOK, MATTHEW",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "penrose_john",
+    "name": "PENROSE, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "perkins_toby",
+    "name": "PERKINS, TOBY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "philp_chris",
+    "name": "PHILP, CHRIS",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pincher_christopher",
+    "name": "PINCHER, CHRISTOPHER",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "prentis_victoria",
+    "name": "PRENTIS, VICTORIA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rimmer_marie",
+    "name": "RIMMER, MARIE",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "siddiq_tulip",
+    "name": "SIDDIQ, TULIP",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "slaughter_andy",
+    "name": "SLAUGHTER, ANDY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_angela",
+    "name": "SMITH, ANGELA",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smith_jeff",
+    "name": "SMITH, JEFF",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "soubry_anna",
+    "name": "SOUBRY, ANNA",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "spellar_john",
+    "name": "SPELLAR, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stewart_bob",
+    "name": "STEWART, BOB",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stuart_gisela",
+    "name": "STUART, GISELA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "thomas-symonds_nick",
+    "name": "THOMAS-SYMONDS, NICK",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "throup_maggie",
+    "name": "THROUP, MAGGIE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "timms_stephen",
+    "name": "TIMMS, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tomlinson_justin",
+    "name": "TOMLINSON, JUSTIN",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tredinnick_david",
+    "name": "TREDINNICK, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "trickett_jon",
+    "name": "TRICKETT, JON",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "turley_anna",
+    "name": "TURLEY, ANNA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "turner_karl",
+    "name": "TURNER, KARL",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vaz_keith",
+    "name": "VAZ, KEITH",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "whitehead_alan",
+    "name": "WHITEHEAD, ALAN",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wood_mike",
+    "name": "WOOD, MIKE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wragg_william",
+    "name": "WRAGG, WILLIAM",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcmahon_jim",
+    "name": "MCMAHON, JIM",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_caroline",
+    "name": "JOHNSON, CAROLINE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "harrison_trudy",
+    "name": "HARRISON, TRUDY",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "afolami_bim",
+    "name": "AFOLAMI, BIM",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "amesbury_mike",
+    "name": "AMESBURY, MIKE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bowie_andrew",
+    "name": "BOWIE, ANDREW",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brereton_jack",
+    "name": "BRERETON, JACK",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burghart_alex",
+    "name": "BURGHART, ALEX",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dhesi_tanmanjeet-singh",
+    "name": "DHESI, TANMANJEET-SINGH",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "duffield_rosie",
+    "name": "DUFFIELD, ROSIE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gaffney_hugh",
+    "name": "GAFFNEY, HUGH",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "graham_luke",
+    "name": "GRAHAM, LUKE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hobhouse_wera",
+    "name": "HOBHOUSE, WERA",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jardine_christine",
+    "name": "JARDINE, CHRISTINE",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_graham-p",
+    "name": "JONES, GRAHAM-P",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "jones_sarah",
+    "name": "JONES, SARAH",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "khan_afzal",
+    "name": "KHAN, AFZAL",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lamont_john",
+    "name": "LAMONT, JOHN",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcmorrin_anna",
+    "name": "MCMORRIN, ANNA",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcvey_esther",
+    "name": "MCVEY, ESTHER",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "moore_damien",
+    "name": "MOORE, DAMIEN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "morgan_stephen",
+    "name": "MORGAN, STEPHEN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "peacock_stephanie",
+    "name": "PEACOCK, STEPHANIE",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pidcock_laura",
+    "name": "PIDCOCK, LAURA",
+    "currentValue": 0,
+    "historicalValue": 25000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "rodda_matt",
+    "name": "RODDA, MATT",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rowley_lee",
+    "name": "ROWLEY, LEE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "russell-moyle_lloyd",
+    "name": "RUSSELL-MOYLE, LLOYD",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "seely_bob",
+    "name": "SEELY, BOB",
+    "currentValue": 10000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "daby_janet",
+    "name": "DABY, JANET",
+    "currentValue": 1000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ali_tahir",
+    "name": "ALI, TAHIR",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "anderson_lee",
+    "name": "ANDERSON, LEE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "barclay_steve",
+    "name": "BARCLAY, STEVE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bell_aaron",
+    "name": "BELL, AARON",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bristow_paul",
+    "name": "BRISTOW, PAUL",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "browne_anthony",
+    "name": "BROWNE, ANTHONY",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_gareth",
+    "name": "DAVIES, GARETH",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davison_dehenna",
+    "name": "DAVISON, DEHENNA",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "henry_darren",
+    "name": "HENRY, DARREN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hunt_tom",
+    "name": "HUNT, TOM",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kruger_danny",
+    "name": "KRUGER, DANNY",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "loder_chris",
+    "name": "LODER, CHRIS",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mangnall_anthony",
+    "name": "MANGNALL, ANTHONY",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mayhew_jerome",
+    "name": "MAYHEW, JEROME",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "moore_robbie",
+    "name": "MOORE, ROBBIE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mullan_kieran",
+    "name": "MULLAN, KIERAN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wakeford_christian",
+    "name": "WAKEFORD, CHRISTIAN",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wallis_jamie",
+    "name": "WALLIS, JAMIE",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wilson_munira",
+    "name": "WILSON, MUNIRA",
+    "currentValue": 25000,
+    "historicalValue": 25000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "aldous_peter",
+    "name": "ALDOUS, PETER",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "alexander_heidi",
+    "name": "ALEXANDER, HEIDI",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2018-04-30T00:00:00"
+  },
+  {
+    "identifier": "allen_heidi",
+    "name": "ALLEN, HEIDI",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "anderson_david",
+    "name": "ANDERSON, DAVID",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "argar_edward",
+    "name": "ARGAR, EDWARD",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "atkins_victoria",
+    "name": "ATKINS, VICTORIA",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bacon_richard",
+    "name": "BACON, RICHARD",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bardell_hannah",
+    "name": "BARDELL, HANNAH",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "baron_john",
+    "name": "BARON, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "betts_clive",
+    "name": "BETTS, CLIVE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "boswell_philip",
+    "name": "BOSWELL, PHILIP",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "bradshaw_ben",
+    "name": "BRADSHAW, BEN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brady_mickey",
+    "name": "BRADY, MICKEY",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brine_steve",
+    "name": "BRINE, STEVE",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brown_alan",
+    "name": "BROWN, ALAN",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brown_nicholas",
+    "name": "BROWN, NICHOLAS",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "campbell_alan",
+    "name": "CAMPBELL, ALAN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "chapman_douglas",
+    "name": "CHAPMAN, DOUGLAS",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "colvile_oliver",
+    "name": "COLVILE, OLIVER",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "cooper_julie",
+    "name": "COOPER, JULIE",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "cox_jo",
+    "name": "COX, JO",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2016-06-06T00:00:00"
+  },
+  {
+    "identifier": "cunningham_alex",
+    "name": "CUNNINGHAM, ALEX",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dakin_nic",
+    "name": "DAKIN, NIC",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "david_wayne",
+    "name": "DAVID, WAYNE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies_byron",
+    "name": "DAVIES, BYRON",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "davies_glyn",
+    "name": "DAVIES, GLYN",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "day_martyn",
+    "name": "DAY, MARTYN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dinenage_caroline",
+    "name": "DINENAGE, CAROLINE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "donaldson_jeffrey-m",
+    "name": "DONALDSON, JEFFREY-M",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dowd_peter",
+    "name": "DOWD, PETER",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "efford_clive",
+    "name": "EFFORD, CLIVE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "elliott_julie",
+    "name": "ELLIOTT, JULIE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ellis_michael",
+    "name": "ELLIS, MICHAEL",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ellwood_tobias",
+    "name": "ELLWOOD, TOBIAS",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "evans_chris",
+    "name": "EVANS, CHRIS",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fabricant_michael",
+    "name": "FABRICANT, MICHAEL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "farrelly_paul",
+    "name": "FARRELLY, PAUL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "fovargue_yvonne",
+    "name": "FOVARGUE, YVONNE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "foxcroft_vicky",
+    "name": "FOXCROFT, VICKY",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "francois_mark",
+    "name": "FRANCOIS, MARK",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "freeman_george",
+    "name": "FREEMAN, GEORGE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gillan_cheryl",
+    "name": "GILLAN, CHERYL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gray_neil",
+    "name": "GRAY, NEIL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "greening_justine",
+    "name": "GREENING, JUSTINE",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "green_damian",
+    "name": "GREEN, DAMIAN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "griffith_nia",
+    "name": "GRIFFITH, NIA",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hanson_david",
+    "name": "HANSON, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "harpham_harry",
+    "name": "HARPHAM, HARRY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2016-01-25T00:00:00"
+  },
+  {
+    "identifier": "harris_carolyn",
+    "name": "HARRIS, CAROLYN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "heaton-jones_peter",
+    "name": "HEATON-JONES, PETER",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "henderson_gordon",
+    "name": "HENDERSON, GORDON",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hendry_drew",
+    "name": "HENDRY, DREW",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hoare_simon",
+    "name": "HOARE, SIMON",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hollingbery_george",
+    "name": "HOLLINGBERY, GEORGE",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hopkins_kelvin",
+    "name": "HOPKINS, KELVIN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "james_margot",
+    "name": "JAMES, MARGOT",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "jones_andrew",
+    "name": "JONES, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_graham",
+    "name": "JONES, GRAHAM",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "jones_helen",
+    "name": "JONES, HELEN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "jones_susan-elan",
+    "name": "JONES, SUSAN-ELAN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "kerr_calum",
+    "name": "KERR, CALUM",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "lord_jonathan",
+    "name": "LORD, JONATHAN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lucas_ian-c",
+    "name": "LUCAS, IAN-C",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lumley_karen",
+    "name": "LUMLEY, KAREN",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "madders_justin",
+    "name": "MADDERS, JUSTIN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mahmood_khalid",
+    "name": "MAHMOOD, KHALID",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "marris_rob",
+    "name": "MARRIS, ROB",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "marsden_gordon",
+    "name": "MARSDEN, GORDON",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mathias_tania",
+    "name": "MATHIAS, TANIA",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "mccabe_steve",
+    "name": "MCCABE, STEVE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcinnes_liz",
+    "name": "MCINNES, LIZ",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mckinnell_catherine",
+    "name": "MCKINNELL, CATHERINE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcloughlin_patrick",
+    "name": "MCLOUGHLIN, PATRICK",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "monaghan_paul",
+    "name": "MONAGHAN, PAUL",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "newlands_gavin",
+    "name": "NEWLANDS, GAVIN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "newton_sarah",
+    "name": "NEWTON, SARAH",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "nicolson_john",
+    "name": "NICOLSON, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "nuttall_david",
+    "name": "NUTTALL, DAVID",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "ohara_brendan",
+    "name": "OHARA, BRENDAN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "onwurah_chi",
+    "name": "ONWURAH, CHI",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "osamor_kate",
+    "name": "OSAMOR, KATE",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "parish_neil",
+    "name": "PARISH, NEIL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pawsey_mark",
+    "name": "PAWSEY, MARK",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pearce_teresa",
+    "name": "PEARCE, TERESA",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "perry_claire",
+    "name": "PERRY, CLAIRE",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "pound_stephen",
+    "name": "POUND, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "pugh_john",
+    "name": "PUGH, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "reed_jamie",
+    "name": "REED, JAMIE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-01-09T00:00:00"
+  },
+  {
+    "identifier": "rees_christina",
+    "name": "REES, CHRISTINA",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "reynolds_emma",
+    "name": "REYNOLDS, EMMA",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "sandbach_antoinette",
+    "name": "SANDBACH, ANTOINETTE",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "shannon_jim",
+    "name": "SHANNON, JIM",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_nick",
+    "name": "SMITH, NICK",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "spelman_caroline",
+    "name": "SPELMAN, CAROLINE",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "sturdy_julian",
+    "name": "STURDY, JULIAN",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "swayne_desmond",
+    "name": "SWAYNE, DESMOND",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tami_mark",
+    "name": "TAMI, MARK",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thomson_michelle",
+    "name": "THOMSON, MICHELLE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "tracey_craig",
+    "name": "TRACEY, CRAIG",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "truss_elizabeth",
+    "name": "TRUSS, ELIZABETH",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vara_shailesh",
+    "name": "VARA, SHAILESH",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vaz_valerie",
+    "name": "VAZ, VALERIE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "walker_charles",
+    "name": "WALKER, CHARLES",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "walker_robin",
+    "name": "WALKER, ROBIN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wallace_ben",
+    "name": "WALLACE, BEN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "warman_matt",
+    "name": "WARMAN, MATT",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whately_helen",
+    "name": "WHATELY, HELEN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whitford_philippa",
+    "name": "WHITFORD, PHILIPPA",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "williams_craig",
+    "name": "WILLIAMS, CRAIG",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "williams_mark",
+    "name": "WILLIAMS, MARK",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "wilson_phil",
+    "name": "WILSON, PHIL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "winterton_rosie",
+    "name": "WINTERTON, ROSIE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wishart_pete",
+    "name": "WISHART, PETE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "elmore_chris",
+    "name": "ELMORE, CHRIS",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "furniss_gill",
+    "name": "FURNISS, GILL",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "poulter_dan",
+    "name": "POULTER, DAN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "snell_gareth",
+    "name": "SNELL, GARETH",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "antoniazzi_tonia",
+    "name": "ANTONIAZZI, TONIA",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "de-cordova_marsha",
+    "name": "DE-CORDOVA, MARSHA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dent-coad_emma",
+    "name": "DENT-COAD, EMMA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "dodds_anneliese",
+    "name": "DODDS, ANNELIESE",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "duguid_david",
+    "name": "DUGUID, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ford_vicky",
+    "name": "FORD, VICKY",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "frith_james",
+    "name": "FRITH, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "george_ruth",
+    "name": "GEORGE, RUTH",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gill_preet-kaur",
+    "name": "GILL, PREET-KAUR",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hazzard_chris",
+    "name": "HAZZARD, CHRIS",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hill_mike",
+    "name": "HILL, MIKE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "keegan_gillian",
+    "name": "KEEGAN, GILLIAN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kerr_stephen",
+    "name": "KERR, STEPHEN",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lewer_andrew",
+    "name": "LEWER, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lloyd_stephen",
+    "name": "LLOYD, STEPHEN",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lloyd_tony",
+    "name": "LLOYD, TONY",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "maclean_rachel",
+    "name": "MACLEAN, RACHEL",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "masterton_paul",
+    "name": "MASTERTON, PAUL",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "norris_alex",
+    "name": "NORRIS, ALEX",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "pollard_luke",
+    "name": "POLLARD, LUKE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rashid_faisal",
+    "name": "RASHID, FAISAL",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "ruane_chris",
+    "name": "RUANE, CHRIS",
+    "currentValue": 0,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "sobel_alex",
+    "name": "SOBEL, ALEX",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stone_jamie",
+    "name": "STONE, JAMIE",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "twist_liz",
+    "name": "TWIST, LIZ",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "watling_giles",
+    "name": "WATLING, GILES",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "western_matt",
+    "name": "WESTERN, MATT",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whitfield_martin",
+    "name": "WHITFIELD, MARTIN",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "williamson_chris",
+    "name": "WILLIAMSON, CHRIS",
+    "currentValue": 500,
+    "historicalValue": 10000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "yasin_mohammad",
+    "name": "YASIN, MOHAMMAD",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "braverman_suella",
+    "name": "BRAVERMAN, SUELLA",
+    "currentValue": 1000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_ruth",
+    "name": "JONES, RUTH",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ahmad-khan_imran",
+    "name": "AHMAD-KHAN, IMRAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "anderson_stuart",
+    "name": "ANDERSON, STUART",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bailey_shaun",
+    "name": "BAILEY, SHAUN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "baillie_siobhan",
+    "name": "BAILLIE, SIOBHAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "baker_duncan",
+    "name": "BAKER, DUNCAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "baynes_simon",
+    "name": "BAYNES, SIMON",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "benton_scott",
+    "name": "BENTON, SCOTT",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bhatti_saqib",
+    "name": "BHATTI, SAQIB",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blake_olivia",
+    "name": "BLAKE, OLIVIA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bonnar_steven",
+    "name": "BONNAR, STEVEN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "britcliffe_sara",
+    "name": "BRITCLIFFE, SARA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "carter_andy",
+    "name": "CARTER, ANDY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cates_miriam",
+    "name": "CATES, MIRIAM",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "chamberlain_wendy",
+    "name": "CHAMBERLAIN, WENDY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clarke-smith_brendan",
+    "name": "CLARKE-SMITH, BRENDAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "colburn_elliot",
+    "name": "COLBURN, ELLIOT",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "coutinho_claire",
+    "name": "COUTINHO, CLAIRE",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "daly_james",
+    "name": "DALY, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "davies-jones_alex",
+    "name": "DAVIES-JONES, ALEX",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "eastwood_mark",
+    "name": "EASTWOOD, MARK",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fell_simon",
+    "name": "FELL, SIMON",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fletcher_mark",
+    "name": "FLETCHER, MARK",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "foy_mary-kelly",
+    "name": "FOY, MARY-KELLY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gibson_peter",
+    "name": "GIBSON, PETER",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "griffiths_kate",
+    "name": "GRIFFITHS, KATE",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "griffith_andrew",
+    "name": "GRIFFITH, ANDREW",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gullis_jonathan",
+    "name": "GULLIS, JONATHAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hart_sally-ann",
+    "name": "HART, SALLY-ANN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "howell_paul",
+    "name": "HOWELL, PAUL",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hunt_jane",
+    "name": "HUNT, JANE",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_fay",
+    "name": "JONES, FAY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jupp_simon",
+    "name": "JUPP, SIMON",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "largan_robert",
+    "name": "LARGAN, ROBERT",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "logan_mark",
+    "name": "LOGAN, MARK",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mackrory_cherilyn",
+    "name": "MACKRORY, CHERILYN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mohindra_gagan",
+    "name": "MOHINDRA, GAGAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-04-27T00:00:00"
+  },
+  {
+    "identifier": "morrissey_joy",
+    "name": "MORRISSEY, JOY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mumby-croft_holly",
+    "name": "MUMBY-CROFT, HOLLY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "murray_james",
+    "name": "MURRAY, JAMES",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "nici_lia",
+    "name": "NICI, LIA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "osborne_kate",
+    "name": "OSBORNE, KATE",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ribeiro-addy_bell",
+    "name": "RIBEIRO-ADDY, BELL",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "richards_nicola",
+    "name": "RICHARDS, NICOLA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "roberts_rob",
+    "name": "ROBERTS, ROB",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "russell_dean",
+    "name": "RUSSELL, DEAN",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sambrook_gary",
+    "name": "SAMBROOK, GARY",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_greg",
+    "name": "SMITH, GREG",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sultana_zarah",
+    "name": "SULTANA, ZARAH",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "tarry_sam",
+    "name": "TARRY, SAM",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "trott_laura",
+    "name": "TROTT, LAURA",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mohindra_mr",
+    "name": "MOHINDRA, MR",
+    "currentValue": 10000,
+    "historicalValue": 10000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "arkless_richard",
+    "name": "ARKLESS, RICHARD",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "bailey_adrian",
+    "name": "BAILEY, ADRIAN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "baldwin_harriett",
+    "name": "BALDWIN, HARRIETT",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "barron_kevin",
+    "name": "BARRON, KEVIN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "beckett_margaret",
+    "name": "BECKETT, MARGARET",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "benn_hilary",
+    "name": "BENN, HILARY",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bingham_andrew",
+    "name": "BINGHAM, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "black_mhairi",
+    "name": "BLACK, MHAIRI",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blenkinsop_tom",
+    "name": "BLENKINSOP, TOM",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "blomfield_paul",
+    "name": "BLOMFIELD, PAUL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brazier_julian",
+    "name": "BRAZIER, JULIAN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "brock_deidre",
+    "name": "BROCK, DEIDRE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brokenshire_james",
+    "name": "BROKENSHIRE, JAMES",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "brown_lyn",
+    "name": "BROWN, LYN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "buck_karen",
+    "name": "BUCK, KAREN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "burns_simon",
+    "name": "BURNS, SIMON",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "campbell_gregory",
+    "name": "CAMPBELL, GREGORY",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "campbell_ronnie",
+    "name": "CAMPBELL, RONNIE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "chapman_jenny",
+    "name": "CHAPMAN, JENNY",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "chope_christopher",
+    "name": "CHOPE, CHRISTOPHER",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "churchill_jo",
+    "name": "CHURCHILL, JO",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cowan_ronnie",
+    "name": "COWAN, RONNIE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "crausby_david",
+    "name": "CRAUSBY, DAVID",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "cryer_john",
+    "name": "CRYER, JOHN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "cunningham_jim",
+    "name": "CUNNINGHAM, JIM",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "davies_geraint",
+    "name": "DAVIES, GERAINT",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "docherty_martin-john",
+    "name": "DOCHERTY, MARTIN-JOHN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2016-02-08T00:00:00"
+  },
+  {
+    "identifier": "dodds_nigel",
+    "name": "DODDS, NIGEL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "donaldson_stuart-blair",
+    "name": "DONALDSON, STUART-BLAIR",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "durkan_mark",
+    "name": "DURKAN, MARK",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "eagle_maria",
+    "name": "EAGLE, MARIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "elliott_tom",
+    "name": "ELLIOTT, TOM",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "ellison_jane",
+    "name": "ELLISON, JANE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "ellman_louise",
+    "name": "ELLMAN, LOUISE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "evennett_david",
+    "name": "EVENNETT, DAVID",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fellows_marion",
+    "name": "FELLOWS, MARION",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "ferrier_margaret",
+    "name": "FERRIER, MARGARET",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "flynn_paul",
+    "name": "FLYNN, PAUL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-02-04T00:00:00"
+  },
+  {
+    "identifier": "gauke_david",
+    "name": "GAUKE, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gibb_nick",
+    "name": "GIBB, NICK",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gibson_patricia",
+    "name": "GIBSON, PATRICIA",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "glass_pat",
+    "name": "GLASS, PAT",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "grady_patrick",
+    "name": "GRADY, PATRICK",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grant_peter",
+    "name": "GRANT, PETER",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hamilton_fabian",
+    "name": "HAMILTON, FABIAN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "haselhurst_alan",
+    "name": "HASELHURST, ALAN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "hendrick_mark",
+    "name": "HENDRICK, MARK",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hillier_meg",
+    "name": "HILLIER, MEG",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hopkins_kris",
+    "name": "HOPKINS, KRIS",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "hosie_stewart",
+    "name": "HOSIE, STEWART",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "howarth_george",
+    "name": "HOWARTH, GEORGE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hoyle_lindsay",
+    "name": "HOYLE, LINDSAY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hurd_nick",
+    "name": "HURD, NICK",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "johnson_diana",
+    "name": "JOHNSON, DIANA",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_gareth",
+    "name": "JOHNSON, GARETH",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jones_gerald",
+    "name": "JONES, GERALD",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kerevan_george",
+    "name": "KEREVAN, GEORGE",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "kinahan_danny",
+    "name": "KINAHAN, DANNY",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "kirby_simon",
+    "name": "KIRBY, SIMON",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "laing_eleanor",
+    "name": "LAING, ELEANOR",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "law_chris",
+    "name": "LAW, CHRIS",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lewis_julian",
+    "name": "LEWIS, JULIAN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "liddell-grainger_ian",
+    "name": "LIDDELL-GRAINGER, IAN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "maskey_paul",
+    "name": "MASKEY, PAUL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mc-nally_john",
+    "name": "MC-NALLY, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "mccaig_callum",
+    "name": "MCCAIG, CALLUM",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "mcdonald_stewart-malcolm",
+    "name": "MCDONALD, STEWART-MALCOLM",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mcgarry_natalie",
+    "name": "MCGARRY, NATALIE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "meale_alan",
+    "name": "MEALE, ALAN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "merriman_huw",
+    "name": "MERRIMAN, HUW",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "miller_maria",
+    "name": "MILLER, MARIA",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "milton_anne",
+    "name": "MILTON, ANNE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "monaghan_carol",
+    "name": "MONAGHAN, CAROL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "moon_madeleine",
+    "name": "MOON, MADELEINE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mowat_david",
+    "name": "MOWAT, DAVID",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "mulholland_greg",
+    "name": "MULHOLLAND, GREG",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "oswald_kirsten",
+    "name": "OSWALD, KIRSTEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "owen_albert",
+    "name": "OWEN, ALBERT",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "paterson_steven",
+    "name": "PATERSON, STEVEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "phillipson_bridget",
+    "name": "PHILLIPSON, BRIDGET",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "poulter_dr",
+    "name": "POULTER, DR",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2016-10-31T00:00:00"
+  },
+  {
+    "identifier": "ritchie_margaret",
+    "name": "RITCHIE, MARGARET",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "robinson_gavin",
+    "name": "ROBINSON, GAVIN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "robinson_geoffrey",
+    "name": "ROBINSON, GEOFFREY",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "selous_andrew",
+    "name": "SELOUS, ANDREW",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sheppard_tommy",
+    "name": "SHEPPARD, TOMMY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "simpson_david",
+    "name": "SIMPSON, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "simpson_keith",
+    "name": "SIMPSON, KEITH",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smyth_karin",
+    "name": "SMYTH, KARIN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stringer_graham",
+    "name": "STRINGER, GRAHAM",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thewliss_alison",
+    "name": "THEWLISS, ALISON",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thompson_owen",
+    "name": "THOMPSON, OWEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "turner_andrew",
+    "name": "TURNER, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "twigg_derek",
+    "name": "TWIGG, DEREK",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "twigg_stephen",
+    "name": "TWIGG, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "tyrie_andrew",
+    "name": "TYRIE, ANDREW",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "weir_mike",
+    "name": "WEIR, MIKE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "white_chris",
+    "name": "WHITE, CHRIS",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "williams_hywel",
+    "name": "WILLIAMS, HYWEL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wilson_corri",
+    "name": "WILSON, CORRI",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "wilson_rob",
+    "name": "WILSON, ROB",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "wilson_sammy",
+    "name": "WILSON, SAMMY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wollaston_sarah",
+    "name": "WOLLASTON, SARAH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "wright_iain",
+    "name": "WRIGHT, IAIN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "wright_jeremy",
+    "name": "WRIGHT, JEREMY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "docherty-hughes_martin",
+    "name": "DOCHERTY-HUGHES, MARTIN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "badenoch_kemi",
+    "name": "BADENOCH, KEMI",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "charalambous_bambos",
+    "name": "CHARALAMBOUS, BAMBOS",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clark_colin",
+    "name": "CLARK, COLIN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "dockerill_julia",
+    "name": "DOCKERILL, JULIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-09-11T00:00:00"
+  },
+  {
+    "identifier": "drew_david",
+    "name": "DREW, DAVID",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "gildernew_michelle",
+    "name": "GILDERNEW, MICHELLE",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "girvan_paul",
+    "name": "GIRVAN, PAUL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grant_bill",
+    "name": "GRANT, BILL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "grogan_john",
+    "name": "GROGAN, JOHN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hair_kirstene",
+    "name": "HAIR, KIRSTENE",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "hardy_emma",
+    "name": "HARDY, EMMA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "killen_gerard",
+    "name": "KILLEN, GERARD",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2017-11-27T00:00:00"
+  },
+  {
+    "identifier": "laird_lesley",
+    "name": "LAIRD, LESLEY",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lee_karen",
+    "name": "LEE, KAREN",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "linden_david",
+    "name": "LINDEN, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "little-pengelly_emma",
+    "name": "LITTLE-PENGELLY, EMMA",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "martin_sandy",
+    "name": "MARTIN, SANDY",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mccallion_elisha",
+    "name": "MCCALLION, ELISHA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mcelduff_barry",
+    "name": "MCELDUFF, BARRY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2018-01-08T00:00:00"
+  },
+  {
+    "identifier": "mcnally_john",
+    "name": "MCNALLY, JOHN",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "obrien_neil",
+    "name": "OBRIEN, NEIL",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "onasanya_fiona",
+    "name": "ONASANYA, FIONA",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-04-23T00:00:00"
+  },
+  {
+    "identifier": "platt_jo",
+    "name": "PLATT, JO",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "reeves_ellie",
+    "name": "REEVES, ELLIE",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "rowley_danielle",
+    "name": "ROWLEY, DANIELLE",
+    "currentValue": 500,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smith_eleanor",
+    "name": "SMITH, ELEANOR",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "walker_thelma",
+    "name": "WALKER, THELMA",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "lopez_julia",
+    "name": "LOPEZ, JULIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sweeney_paul",
+    "name": "SWEENEY, PAUL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "killen_ged",
+    "name": "KILLEN, GED",
+    "currentValue": 0,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "begley_%C3%B3rfhlaith",
+    "name": "BEGLEY, %C3%B3RFHLAITH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "forbes_lisa",
+    "name": "FORBES, LISA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "anderson_fleur",
+    "name": "ANDERSON, FLEUR",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "atherton_sarah",
+    "name": "ATHERTON, SARAH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "bacon_gareth",
+    "name": "BACON, GARETH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "barker_paula",
+    "name": "BARKER, PAULA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "begum_apsana",
+    "name": "BEGUM, APSANA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "byrne_ian",
+    "name": "BYRNE, IAN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "callaghan_amy",
+    "name": "CALLAGHAN, AMY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clarke_theo",
+    "name": "CLARKE, THEO",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clarkson_chris",
+    "name": "CLARKSON, CHRIS",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clark_feryal",
+    "name": "CLARK, FERYAL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "crosbie_virginia",
+    "name": "CROSBIE, VIRGINIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dines_sarah",
+    "name": "DINES, SARAH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "doogan_dave",
+    "name": "DOOGAN, DAVE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "edwards_ruth",
+    "name": "EDWARDS, RUTH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "elphicke_natalie",
+    "name": "ELPHICKE, NATALIE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "eshalomi_florence",
+    "name": "ESHALOMI, FLORENCE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "everitt_ben",
+    "name": "EVERITT, BEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "finucane_john",
+    "name": "FINUCANE, JOHN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fletcher_nick",
+    "name": "FLETCHER, NICK",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "flynn_stephen",
+    "name": "FLYNN, STEPHEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gideon_jo",
+    "name": "GIDEON, JO",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "grundy_james",
+    "name": "GRUNDY, JAMES",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hanna_claire",
+    "name": "HANNA, CLAIRE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "higginbotham_antony",
+    "name": "HIGGINBOTHAM, ANTONY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hopkins_rachel",
+    "name": "HOPKINS, RACHEL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hudson_neil",
+    "name": "HUDSON, NEIL",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "jenkinson_mark",
+    "name": "JENKINSON, MARK",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnson_kim",
+    "name": "JOHNSON, KIM",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "johnston_david",
+    "name": "JOHNSTON, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "kearns_alicia",
+    "name": "KEARNS, ALICIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "lockhart_carla",
+    "name": "LOCKHART, CARLA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "macaskill_kenny",
+    "name": "MACASKILL, KENNY",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "millar_robin",
+    "name": "MILLAR, ROBIN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mishra_navendu",
+    "name": "MISHRA, NAVENDU",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "nichols_charlotte",
+    "name": "NICHOLS, CHARLOTTE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "oppong-asare_abena",
+    "name": "OPPONG-ASARE, ABENA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "owen_sarah",
+    "name": "OWEN, SARAH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "randall_tom",
+    "name": "RANDALL, TOM",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "richardson_angela",
+    "name": "RICHARDSON, ANGELA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "saxby_selaine",
+    "name": "SAXBY, SELAINE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "simmonds_david",
+    "name": "SIMMONDS, DAVID",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_alyn",
+    "name": "SMITH, ALYN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "spencer_ben",
+    "name": "SPENCER, BEN",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stafford_alexander",
+    "name": "STAFFORD, ALEXANDER",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "stevenson_jane",
+    "name": "STEVENSON, JANE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "thomson_richard",
+    "name": "THOMSON, RICHARD",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "vickers_matt",
+    "name": "VICKERS, MATT",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "webbe_claudia",
+    "name": "WEBBE, CLAUDIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "webb_suzanne",
+    "name": "WEBB, SUZANNE",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whitley_mick",
+    "name": "WHITLEY, MICK",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "whittome_nadia",
+    "name": "WHITTOME, NADIA",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "wild_james",
+    "name": "WILD, JAMES",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "winter_beth",
+    "name": "WINTER, BETH",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "young_jacob",
+    "name": "YOUNG, JACOB",
+    "currentValue": 1000,
+    "historicalValue": 1000,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "blackman_kirsty",
+    "name": "BLACKMAN, KIRSTY",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "carmichael_neil",
+    "name": "CARMICHAEL, NEIL",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "cartlidge_james",
+    "name": "CARTLIDGE, JAMES",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "crawley_angela",
+    "name": "CRAWLEY, ANGELA",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "dowd_jim",
+    "name": "DOWD, JIM",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "engel_natascha",
+    "name": "ENGEL, NATASCHA",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "fletcher_colleen",
+    "name": "FLETCHER, COLLEEN",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "irranca-davies_huw",
+    "name": "IRRANCA-DAVIES, HUW",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2016-03-21T00:00:00"
+  },
+  {
+    "identifier": "mcdonald_stuart-c",
+    "name": "MCDONALD, STUART-C",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mclaughlin_anne",
+    "name": "MCLAUGHLIN, ANNE",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "molloy_francie",
+    "name": "MOLLOY, FRANCIE",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "mullin_roger",
+    "name": "MULLIN, ROGER",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "rutley_david",
+    "name": "RUTLEY, DAVID",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "watkinson_angela",
+    "name": "WATKINSON, ANGELA",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "whiteford_eilidh",
+    "name": "WHITEFORD, EILIDH",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "lake_ben",
+    "name": "LAKE, BEN",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "smith_laura",
+    "name": "SMITH, LAURA",
+    "currentValue": 0,
+    "historicalValue": 500,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "aiken_nickie",
+    "name": "AIKEN, NICKIE",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "farry_stephen",
+    "name": "FARRY, STEPHEN",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hanvey_neale",
+    "name": "HANVEY, NEALE",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "holmes_paul",
+    "name": "HOLMES, PAUL",
+    "currentValue": 500,
+    "historicalValue": 500,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "afriyie_adam",
+    "name": "AFRIYIE, ADAM",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "allen_graham",
+    "name": "ALLEN, GRAHAM",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "bottomley_peter",
+    "name": "BOTTOMLEY, PETER",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "clwyd_ann",
+    "name": "CLWYD, ANN",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "coffey_ann",
+    "name": "COFFEY, ANN",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "doherty_pat",
+    "name": "DOHERTY, PAT",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "edwards_jonathan",
+    "name": "EDWARDS, JONATHAN",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "gale_roger",
+    "name": "GALE, ROGER",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "hermon_lady",
+    "name": "HERMON, LADY",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "kaufman_gerald",
+    "name": "KAUFMAN, GERALD",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-02-20T00:00:00"
+  },
+  {
+    "identifier": "lidington_david",
+    "name": "LIDINGTON, DAVID",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "mcdonnell_alasdair",
+    "name": "MCDONNELL, ALASDAIR",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "robertson_angus",
+    "name": "ROBERTSON, ANGUS",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "skinner_dennis",
+    "name": "SKINNER, DENNIS",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "smith_andrew",
+    "name": "SMITH, ANDREW",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "stride_mel",
+    "name": "STRIDE, MEL",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sunak_rishi",
+    "name": "SUNAK, RISHI",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "syms_robert",
+    "name": "SYMS, ROBERT",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "winnick_david",
+    "name": "WINNICK, DAVID",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-05-02T00:00:00"
+  },
+  {
+    "identifier": "omara_jared",
+    "name": "OMARA, JARED",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2019-11-05T00:00:00"
+  },
+  {
+    "identifier": "sweeney_paul-j",
+    "name": "SWEENEY, PAUL-J",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2017-10-23T00:00:00"
+  },
+  {
+    "identifier": "dorans_allan",
+    "name": "DORANS, ALLAN",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "eastwood_colum",
+    "name": "EASTWOOD, COLUM",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "evans_luke",
+    "name": "EVANS, LUKE",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "fletcher_katherine",
+    "name": "FLETCHER, KATHERINE",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "holden_richard",
+    "name": "HOLDEN, RICHARD",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "levy_ian",
+    "name": "LEVY, IAN",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "marson_julie",
+    "name": "MARSON, JULIE",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "owatemi_taiwo",
+    "name": "OWATEMI, TAIWO",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  },
+  {
+    "identifier": "sunderland_james",
+    "name": "SUNDERLAND, JAMES",
+    "currentValue": 0,
+    "historicalValue": 0,
+    "latestEntryDate": "2020-05-11T00:00:00"
+  }
 ]

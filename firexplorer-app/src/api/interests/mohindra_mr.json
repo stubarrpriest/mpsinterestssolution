@@ -1,0 +1,33 @@
+{
+  "identifier": "mohindra_mr",
+  "name": "MOHINDRA, MR",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 14400,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 14400,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 14400,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 10000,
+      "change": 14400,
+      "changeBand": 10000
+    }
+  ]
+}

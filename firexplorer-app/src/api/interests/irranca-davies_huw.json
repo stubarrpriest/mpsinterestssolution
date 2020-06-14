@@ -1,0 +1,65 @@
+{
+  "identifier": "irranca-davies_huw",
+  "name": "IRRANCA-DAVIES, HUW",
+  "currentValue": 500,
+  "historicalValue": 500,
+  "latestEntryDate": "2016-03-21T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "160321",
+      "amount": 75,
+      "publicationDate": "2016-03-21T00:00:00",
+      "incomeBand": 500,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160307",
+      "amount": 75,
+      "publicationDate": "2016-03-07T00:00:00",
+      "incomeBand": 500,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160222",
+      "amount": 75,
+      "publicationDate": "2016-02-22T00:00:00",
+      "incomeBand": 500,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160208",
+      "amount": 75,
+      "publicationDate": "2016-02-08T00:00:00",
+      "incomeBand": 500,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160125",
+      "amount": 75,
+      "publicationDate": "2016-01-25T00:00:00",
+      "incomeBand": 500,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160111",
+      "amount": 75,
+      "publicationDate": "2016-01-11T00:00:00",
+      "incomeBand": 500,
+      "change": -75,
+      "changeBand": -500
+    },
+    {
+      "publicationSetName": "151214",
+      "amount": 150,
+      "publicationDate": "2015-12-14T00:00:00",
+      "incomeBand": 500,
+      "change": 150,
+      "changeBand": 500
+    }
+  ]
+}

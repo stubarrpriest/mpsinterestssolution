@@ -1,0 +1,241 @@
+{
+  "identifier": "jones_graham",
+  "name": "JONES, GRAHAM",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2017-05-02T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "170502",
+      "amount": 10755,
+      "publicationDate": "2017-05-02T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170410",
+      "amount": 10755,
+      "publicationDate": "2017-04-10T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170320",
+      "amount": 10755,
+      "publicationDate": "2017-03-20T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170306",
+      "amount": 10755,
+      "publicationDate": "2017-03-06T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170220",
+      "amount": 10755,
+      "publicationDate": "2017-02-20T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170206",
+      "amount": 10755,
+      "publicationDate": "2017-02-06T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170123",
+      "amount": 10755,
+      "publicationDate": "2017-01-23T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170109",
+      "amount": 10755,
+      "publicationDate": "2017-01-09T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "161219",
+      "amount": 10755,
+      "publicationDate": "2016-12-19T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "161205",
+      "amount": 10755,
+      "publicationDate": "2016-12-05T00:00:00",
+      "incomeBand": 10000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "161121",
+      "amount": 10755,
+      "publicationDate": "2016-11-21T00:00:00",
+      "incomeBand": 10000,
+      "change": 4316,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "161031",
+      "amount": 6439,
+      "publicationDate": "2016-10-31T00:00:00",
+      "incomeBand": 1000,
+      "change": 509,
+      "changeBand": 500
+    },
+    {
+      "publicationSetName": "161017",
+      "amount": 5930,
+      "publicationDate": "2016-10-17T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "161003",
+      "amount": 5930,
+      "publicationDate": "2016-10-03T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160905",
+      "amount": 5930,
+      "publicationDate": "2016-09-05T00:00:00",
+      "incomeBand": 1000,
+      "change": 1368,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "160801",
+      "amount": 4562,
+      "publicationDate": "2016-08-01T00:00:00",
+      "incomeBand": 1000,
+      "change": 4562,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "160711",
+      "amount": 0,
+      "publicationDate": "2016-07-11T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160627",
+      "amount": 0,
+      "publicationDate": "2016-06-27T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160606",
+      "amount": 0,
+      "publicationDate": "2016-06-06T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160516",
+      "amount": 0,
+      "publicationDate": "2016-05-16T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160503",
+      "amount": 0,
+      "publicationDate": "2016-05-03T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160418",
+      "amount": 0,
+      "publicationDate": "2016-04-18T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160321",
+      "amount": 0,
+      "publicationDate": "2016-03-21T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160307",
+      "amount": 0,
+      "publicationDate": "2016-03-07T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160222",
+      "amount": 0,
+      "publicationDate": "2016-02-22T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160208",
+      "amount": 0,
+      "publicationDate": "2016-02-08T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160125",
+      "amount": 0,
+      "publicationDate": "2016-01-25T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160111",
+      "amount": 0,
+      "publicationDate": "2016-01-11T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "151214",
+      "amount": 0,
+      "publicationDate": "2015-12-14T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    }
+  ]
+}

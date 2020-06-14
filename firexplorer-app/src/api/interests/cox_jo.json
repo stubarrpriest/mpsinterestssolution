@@ -1,0 +1,97 @@
+{
+  "identifier": "cox_jo",
+  "name": "COX, JO",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2016-06-06T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "160606",
+      "amount": 16106.36,
+      "publicationDate": "2016-06-06T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160516",
+      "amount": 16106.36,
+      "publicationDate": "2016-05-16T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160503",
+      "amount": 16106.36,
+      "publicationDate": "2016-05-03T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160418",
+      "amount": 16106.36,
+      "publicationDate": "2016-04-18T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160321",
+      "amount": 16106.36,
+      "publicationDate": "2016-03-21T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160307",
+      "amount": 16106.36,
+      "publicationDate": "2016-03-07T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160222",
+      "amount": 16106.36,
+      "publicationDate": "2016-02-22T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160208",
+      "amount": 16106.36,
+      "publicationDate": "2016-02-08T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160125",
+      "amount": 16106.36,
+      "publicationDate": "2016-01-25T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160111",
+      "amount": 16106.36,
+      "publicationDate": "2016-01-11T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "151214",
+      "amount": 16106.36,
+      "publicationDate": "2015-12-14T00:00:00",
+      "incomeBand": 10000,
+      "change": 16106.36,
+      "changeBand": 10000
+    }
+  ]
+}

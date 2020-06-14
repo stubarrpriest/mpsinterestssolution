@@ -1,0 +1,41 @@
+{
+  "identifier": "dockerill_julia",
+  "name": "DOCKERILL, JULIA",
+  "currentValue": 1000,
+  "historicalValue": 1000,
+  "latestEntryDate": "2017-09-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "170911",
+      "amount": 3411.50,
+      "publicationDate": "2017-09-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170829",
+      "amount": 3411.50,
+      "publicationDate": "2017-08-29T00:00:00",
+      "incomeBand": 1000,
+      "change": -2500.00,
+      "changeBand": -1000
+    },
+    {
+      "publicationSetName": "170731",
+      "amount": 5911.50,
+      "publicationDate": "2017-07-31T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170707",
+      "amount": 5911.50,
+      "publicationDate": "2017-07-07T00:00:00",
+      "incomeBand": 1000,
+      "change": 5911.50,
+      "changeBand": 1000
+    }
+  ]
+}

@@ -15,5 +15,7 @@
         public string[] ParliamentWebsiteSessionPageNames { get; set; }
 
         public string OutputSummaryFileName { get; set; }
+
+        public string OutputJsonPath { get; set; }
     }
 }

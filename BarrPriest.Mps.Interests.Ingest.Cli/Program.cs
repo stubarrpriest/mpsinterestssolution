@@ -50,6 +50,13 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
 
                 Console.Write(await outputGenerator.ShowReport());
             }
+
+            if (args[0].ToUpperInvariant() == "JSONOUTPUT")
+            {
+                var outputGenerator = serviceProvider.GetService<GenerateJsonOutput>();
+
+                await outputGenerator.MakeJsonOutput();
+            }
         }
 
         private static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
@@ -65,7 +72,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Cli
                 .AddTransient<AmountByPublicationSetForEachMpProjection>()
                 .AddTransient<DirectoryStructureOutputSummary>()
                 .AddTransient<SummaryConsole>()
-                .AddTransient<GenerateSummaryOutput>();
+                .AddTransient<GenerateSummaryOutput>()
+                .AddTransient<GenerateJsonOutput>();
         }
     }
 }

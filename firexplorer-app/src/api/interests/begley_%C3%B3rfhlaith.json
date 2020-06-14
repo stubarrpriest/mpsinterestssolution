@@ -1,0 +1,337 @@
+{
+  "identifier": "begley_%C3%B3rfhlaith",
+  "name": "BEGLEY, %C3%B3RFHLAITH",
+  "currentValue": 1000,
+  "historicalValue": 1000,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 1703.56,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200427",
+      "amount": 1703.56,
+      "publicationDate": "2020-04-27T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200414",
+      "amount": 1703.56,
+      "publicationDate": "2020-04-14T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 1703.56,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 1703.56,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200302",
+      "amount": 1703.56,
+      "publicationDate": "2020-03-02T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200210",
+      "amount": 1703.56,
+      "publicationDate": "2020-02-10T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200111",
+      "amount": 1703.56,
+      "publicationDate": "2020-01-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "191105",
+      "amount": 1703.56,
+      "publicationDate": "2019-11-05T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "191021",
+      "amount": 1703.56,
+      "publicationDate": "2019-10-21T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190930",
+      "amount": 1703.56,
+      "publicationDate": "2019-09-30T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190916",
+      "amount": 1703.56,
+      "publicationDate": "2019-09-16T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190902",
+      "amount": 1703.56,
+      "publicationDate": "2019-09-02T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190812",
+      "amount": 1703.56,
+      "publicationDate": "2019-08-12T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190729",
+      "amount": 1703.56,
+      "publicationDate": "2019-07-29T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190715",
+      "amount": 1703.56,
+      "publicationDate": "2019-07-15T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190701",
+      "amount": 1703.56,
+      "publicationDate": "2019-07-01T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190617",
+      "amount": 1703.56,
+      "publicationDate": "2019-06-17T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190603",
+      "amount": 1703.56,
+      "publicationDate": "2019-06-03T00:00:00",
+      "incomeBand": 1000,
+      "change": 1703.56,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "190520",
+      "amount": 0,
+      "publicationDate": "2019-05-20T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190507",
+      "amount": 0,
+      "publicationDate": "2019-05-07T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190423",
+      "amount": 0,
+      "publicationDate": "2019-04-23T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190401",
+      "amount": 0,
+      "publicationDate": "2019-04-01T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190318",
+      "amount": 0,
+      "publicationDate": "2019-03-18T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190304",
+      "amount": 0,
+      "publicationDate": "2019-03-04T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190218",
+      "amount": 0,
+      "publicationDate": "2019-02-18T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190204",
+      "amount": 0,
+      "publicationDate": "2019-02-04T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190121",
+      "amount": 0,
+      "publicationDate": "2019-01-21T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "190107",
+      "amount": 0,
+      "publicationDate": "2019-01-07T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181217",
+      "amount": 0,
+      "publicationDate": "2018-12-17T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181203",
+      "amount": 0,
+      "publicationDate": "2018-12-03T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181119",
+      "amount": 0,
+      "publicationDate": "2018-11-19T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181029",
+      "amount": 0,
+      "publicationDate": "2018-10-29T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181015",
+      "amount": 0,
+      "publicationDate": "2018-10-15T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "181001",
+      "amount": 0,
+      "publicationDate": "2018-10-01T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180910",
+      "amount": 0,
+      "publicationDate": "2018-09-10T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180813",
+      "amount": 0,
+      "publicationDate": "2018-08-13T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180716",
+      "amount": 0,
+      "publicationDate": "2018-07-16T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180702",
+      "amount": 0,
+      "publicationDate": "2018-07-02T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180618",
+      "amount": 0,
+      "publicationDate": "2018-06-18T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "180604",
+      "amount": 0,
+      "publicationDate": "2018-06-04T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    }
+  ]
+}

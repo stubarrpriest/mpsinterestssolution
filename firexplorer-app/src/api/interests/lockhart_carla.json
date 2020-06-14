@@ -1,0 +1,73 @@
+{
+  "identifier": "lockhart_carla",
+  "name": "LOCKHART, CARLA",
+  "currentValue": 1000,
+  "historicalValue": 1000,
+  "latestEntryDate": "2020-05-11T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "200511",
+      "amount": 2500,
+      "publicationDate": "2020-05-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200427",
+      "amount": 2500,
+      "publicationDate": "2020-04-27T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200414",
+      "amount": 2500,
+      "publicationDate": "2020-04-14T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200330",
+      "amount": 2500,
+      "publicationDate": "2020-03-30T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200316",
+      "amount": 2500,
+      "publicationDate": "2020-03-16T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200302",
+      "amount": 2500,
+      "publicationDate": "2020-03-02T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200210",
+      "amount": 2500,
+      "publicationDate": "2020-02-10T00:00:00",
+      "incomeBand": 1000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200111",
+      "amount": 2500,
+      "publicationDate": "2020-01-11T00:00:00",
+      "incomeBand": 1000,
+      "change": 2500,
+      "changeBand": 1000
+    }
+  ]
+}

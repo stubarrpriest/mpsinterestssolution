@@ -1,0 +1,33 @@
+{
+  "identifier": "harpham_harry",
+  "name": "HARPHAM, HARRY",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2016-01-25T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "160125",
+      "amount": 23859.44,
+      "publicationDate": "2016-01-25T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "160111",
+      "amount": 23859.44,
+      "publicationDate": "2016-01-11T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "151214",
+      "amount": 23859.44,
+      "publicationDate": "2015-12-14T00:00:00",
+      "incomeBand": 10000,
+      "change": 23859.44,
+      "changeBand": 10000
+    }
+  ]
+}

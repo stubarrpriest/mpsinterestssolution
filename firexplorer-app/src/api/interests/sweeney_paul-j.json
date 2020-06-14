@@ -1,0 +1,57 @@
+{
+  "identifier": "sweeney_paul-j",
+  "name": "SWEENEY, PAUL-J",
+  "currentValue": 0,
+  "historicalValue": 0,
+  "latestEntryDate": "2017-10-23T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "171023",
+      "amount": 0,
+      "publicationDate": "2017-10-23T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "171009",
+      "amount": 0,
+      "publicationDate": "2017-10-09T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170911",
+      "amount": 0,
+      "publicationDate": "2017-09-11T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170829",
+      "amount": 0,
+      "publicationDate": "2017-08-29T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170731",
+      "amount": 0,
+      "publicationDate": "2017-07-31T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "170707",
+      "amount": 0,
+      "publicationDate": "2017-07-07T00:00:00",
+      "incomeBand": 0,
+      "change": 0,
+      "changeBand": 0
+    }
+  ]
+}

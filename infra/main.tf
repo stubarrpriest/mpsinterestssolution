@@ -24,9 +24,13 @@ resource "azurerm_storage_account" "mpsinterests" {
   account_tier             = "Standard"
   account_kind             = "StorageV2"
   account_replication_type = "LRS"
-  enable_https_traffic_only = true
+  enable_https_traffic_only = false
   static_website {
     index_document             = "index.html"
+  }
+  custom_domain{
+	name				="firexplorer.barrpriestltd.co.uk"
+	use_subdomain = false
   }
 }
 

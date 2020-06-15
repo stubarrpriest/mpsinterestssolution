@@ -1,0 +1,23 @@
+trigger:
+- master
+
+stages:
+- stage: build
+  jobs:
+  - job: build
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+      - task: Npm@1
+        inputs:
+          command: 'install'
+          workingDir: '$(build.sourcesdirectory)/firexplorer-app'
+      - task: Npm@1
+        inputs:
+          command: 'custom'
+          workingDir: '$(build.sourcesdirectory)/firexplorer-app'
+          customCommand: 'run prod-build-dev'
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: '$(build.sourcesdirectory)/firexplorer-app/dist'
+          ArtifactName: drop

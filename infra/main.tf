@@ -29,7 +29,7 @@ resource "azurerm_storage_account" "mpsinterests" {
     index_document             = "index.html"
   }
   custom_domain{
-	name				="firexplorer.barrpriestltd.co.uk"
+	name				="firexplorerdev.barrpriestltd.co.uk"
 	use_subdomain = false
   }
 }
@@ -54,4 +54,28 @@ resource "azurerm_function_app" "mpsinterests" {
   storage_account_name       = azurerm_storage_account.mpsinterests.name
   storage_account_access_key = azurerm_storage_account.mpsinterests.primary_access_key
 }
+
+
+resource "azurerm_resource_group" "mpsinterestsprod" {
+  name     = "MpsInterestsProd"
+  location = "uksouth"
+}
+
+resource "azurerm_storage_account" "mpsinterestsprod" {
+  name                     = "mpsinterestsprodstorage"
+  resource_group_name      = azurerm_resource_group.mpsinterestsprod.name
+  location                 = azurerm_resource_group.mpsinterestsprod.location
+  account_tier             = "Standard"
+  account_kind             = "StorageV2"
+  account_replication_type = "LRS"
+  enable_https_traffic_only = false
+  static_website {
+    index_document             = "index.html"
+  }
+  custom_domain{
+	name				="firexplorer.barrpriestltd.co.uk"
+	use_subdomain = false
+  }
+}
+
 

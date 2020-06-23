@@ -5,5 +5,6 @@ export interface IInterestCollection{
     name : string,
     currentValue : number,
     historicalValue : number,
-    publicationSets : IPublicationSet[]
+    publicationSets : IPublicationSet[],
+    gitHubPathHash : string
 }

@@ -12,7 +12,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
             decimal currentValue,
             decimal historicalValue,
             DateTime latestEntryDate,
-            PublicationSet[] publicationSets)
+            PublicationSet[] publicationSets,
+            string gitHubPathHash)
         {
             this.Identifier = identifier;
 
@@ -25,6 +26,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
             this.LatestEntryDate = latestEntryDate;
 
             this.PublicationSets = publicationSets;
+
+            this.GitHubPathHash = gitHubPathHash;
         }
 
         public string Identifier { get; }
@@ -38,5 +41,7 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
         public DateTime LatestEntryDate { get; }
 
         public PublicationSet[] PublicationSets { get; }
+
+        public string GitHubPathHash { get; }
     }
 }

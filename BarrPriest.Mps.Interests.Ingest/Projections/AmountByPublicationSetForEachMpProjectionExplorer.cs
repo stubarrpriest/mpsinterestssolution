@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using BarrPriest.Mps.Interests.Ingest.Interfaces.With;
 
 namespace BarrPriest.Mps.Interests.Ingest.Projections
 {
     public class AmountByPublicationSetForEachMpProjectionExplorer
     {
+        private const string FileExtensionForPathHash = ".html";
+
         private readonly Dictionary<string, Dictionary<string, PublicationSetTotal>> input;
 
         public AmountByPublicationSetForEachMpProjectionExplorer(Dictionary<string, Dictionary<string, PublicationSetTotal>> input)
@@ -115,7 +115,8 @@ namespace BarrPriest.Mps.Interests.Ingest.Projections
                     new MoneyBanding().Bucket(lastValue),
                     new MoneyBanding().Bucket(totalForThisMp + lastValue),
                     new PublicationSetDate(lastPublicationSet).LikelyPublicationDate,
-                    publicationSets.OrderByDescending(x => x.PublicationDate).ToArray()));
+                    publicationSets.OrderByDescending(x => x.PublicationDate).ToArray(),
+                    new GitHubPathHash(FileExtensionForPathHash).From(key)));
             }
 
             return details;

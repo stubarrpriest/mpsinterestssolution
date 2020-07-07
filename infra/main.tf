@@ -34,6 +34,22 @@ resource "azurerm_storage_account" "mpsinterests" {
   }
 }
 
+resource "azurerm_application_insights" "mpsinterests" {
+  name                = "mpsinterests-dev-appinsights"
+  location            = azurerm_resource_group.mpsinterests.location
+  resource_group_name = azurerm_resource_group.mpsinterests.name
+  application_type    = "web"
+}
+
+output "instrumentation_key" {
+  value = azurerm_application_insights.mpsinterests.instrumentation_key
+}
+
+output "app_id" {
+  value = azurerm_application_insights.mpsinterests.app_id
+}
+
+
 resource "azurerm_app_service_plan" "mpsinterests" {
   name                = "azure-functions-mps-interests-service-plan"
   location            = azurerm_resource_group.mpsinterests.location
@@ -53,8 +69,10 @@ resource "azurerm_function_app" "mpsinterests" {
   app_service_plan_id        = azurerm_app_service_plan.mpsinterests.id
   storage_account_name       = azurerm_storage_account.mpsinterests.name
   storage_account_access_key = azurerm_storage_account.mpsinterests.primary_access_key
+  app_settings = {
+     "APPINSIGHTS_INSTRUMENTATIONKEY" = "${azurerm_application_insights.mpsinterests.instrumentation_key}"
+   }
 }
-
 
 resource "azurerm_resource_group" "mpsinterestsprod" {
   name     = "MpsInterestsProd"

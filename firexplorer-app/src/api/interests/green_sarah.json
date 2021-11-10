@@ -1,0 +1,18 @@
+{
+  "identifier": "green_sarah",
+  "name": "GREEN, SARAH",
+  "currentValue": 1000,
+  "historicalValue": 1000,
+  "latestEntryDate": "2021-07-26T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "210726",
+      "amount": 4953.70,
+      "publicationDate": "2021-07-26T00:00:00",
+      "incomeBand": 1000,
+      "change": 4953.70,
+      "changeBand": 1000
+    }
+  ],
+  "gitHubPathHash": "b2d267c4fd2eba97a3fd6cfa7febcda2"
+}

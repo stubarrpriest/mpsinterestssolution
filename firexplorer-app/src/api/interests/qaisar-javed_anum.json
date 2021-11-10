@@ -1,0 +1,42 @@
+{
+  "identifier": "qaisar-javed_anum",
+  "name": "QAISAR-JAVED, ANUM",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2021-07-26T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "210726",
+      "amount": 10141.12,
+      "publicationDate": "2021-07-26T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210712",
+      "amount": 10141.12,
+      "publicationDate": "2021-07-12T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210628",
+      "amount": 10141.12,
+      "publicationDate": "2021-06-28T00:00:00",
+      "incomeBand": 10000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210614",
+      "amount": 10141.12,
+      "publicationDate": "2021-06-14T00:00:00",
+      "incomeBand": 10000,
+      "change": 10141.12,
+      "changeBand": 10000
+    }
+  ],
+  "gitHubPathHash": "72e179b705b8c6a564cb91d2d9d2e74d"
+}

@@ -1,10 +1,74 @@
 {
   "identifier": "davey_edward",
   "name": "DAVEY, EDWARD",
-  "currentValue": 100000,
-  "historicalValue": 100000,
-  "latestEntryDate": "2020-05-11T00:00:00",
+  "currentValue": 250000,
+  "historicalValue": 250000,
+  "latestEntryDate": "2020-09-14T00:00:00",
   "publicationSets": [
+    {
+      "publicationSetName": "200914",
+      "amount": 251235,
+      "publicationDate": "2020-09-14T00:00:00",
+      "incomeBand": 250000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200901",
+      "amount": 251235,
+      "publicationDate": "2020-09-01T00:00:00",
+      "incomeBand": 250000,
+      "change": 18550,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "200810",
+      "amount": 232685,
+      "publicationDate": "2020-08-10T00:00:00",
+      "incomeBand": 100000,
+      "change": 73100,
+      "changeBand": 50000
+    },
+    {
+      "publicationSetName": "200720",
+      "amount": 159585,
+      "publicationDate": "2020-07-20T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200706",
+      "amount": 159585,
+      "publicationDate": "2020-07-06T00:00:00",
+      "incomeBand": 100000,
+      "change": 55500,
+      "changeBand": 50000
+    },
+    {
+      "publicationSetName": "200622",
+      "amount": 104085,
+      "publicationDate": "2020-06-22T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200608",
+      "amount": 104085,
+      "publicationDate": "2020-06-08T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200526",
+      "amount": 104085,
+      "publicationDate": "2020-05-26T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
     {
       "publicationSetName": "200511",
       "amount": 104085,

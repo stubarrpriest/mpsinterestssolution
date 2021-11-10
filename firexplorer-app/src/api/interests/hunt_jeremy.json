@@ -1,10 +1,242 @@
 {
   "identifier": "hunt_jeremy",
   "name": "HUNT, JEREMY",
-  "currentValue": 250000,
+  "currentValue": 75000,
   "historicalValue": 250000,
-  "latestEntryDate": "2020-05-11T00:00:00",
+  "latestEntryDate": "2021-07-26T00:00:00",
   "publicationSets": [
+    {
+      "publicationSetName": "210726",
+      "amount": 90200,
+      "publicationDate": "2021-07-26T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210712",
+      "amount": 90200,
+      "publicationDate": "2021-07-12T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210628",
+      "amount": 90200,
+      "publicationDate": "2021-06-28T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210614",
+      "amount": 90200,
+      "publicationDate": "2021-06-14T00:00:00",
+      "incomeBand": 75000,
+      "change": 10000,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "210601",
+      "amount": 80200,
+      "publicationDate": "2021-06-01T00:00:00",
+      "incomeBand": 75000,
+      "change": -10000,
+      "changeBand": -10000
+    },
+    {
+      "publicationSetName": "210517",
+      "amount": 90200,
+      "publicationDate": "2021-05-17T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210426",
+      "amount": 90200,
+      "publicationDate": "2021-04-26T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210412",
+      "amount": 90200,
+      "publicationDate": "2021-04-12T00:00:00",
+      "incomeBand": 75000,
+      "change": 15200,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "210315",
+      "amount": 75000,
+      "publicationDate": "2021-03-15T00:00:00",
+      "incomeBand": 75000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210301",
+      "amount": 75000,
+      "publicationDate": "2021-03-01T00:00:00",
+      "incomeBand": 75000,
+      "change": 5000,
+      "changeBand": 1000
+    },
+    {
+      "publicationSetName": "210215",
+      "amount": 70000,
+      "publicationDate": "2021-02-15T00:00:00",
+      "incomeBand": 50000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210201",
+      "amount": 70000,
+      "publicationDate": "2021-02-01T00:00:00",
+      "incomeBand": 50000,
+      "change": -48000,
+      "changeBand": -25000
+    },
+    {
+      "publicationSetName": "210118",
+      "amount": 118000,
+      "publicationDate": "2021-01-18T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210104",
+      "amount": 118000,
+      "publicationDate": "2021-01-04T00:00:00",
+      "incomeBand": 100000,
+      "change": 10000,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "201221",
+      "amount": 108000,
+      "publicationDate": "2020-12-21T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "201207",
+      "amount": 108000,
+      "publicationDate": "2020-12-07T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "201123",
+      "amount": 108000,
+      "publicationDate": "2020-11-23T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "201109",
+      "amount": 108000,
+      "publicationDate": "2020-11-09T00:00:00",
+      "incomeBand": 100000,
+      "change": -27000,
+      "changeBand": -25000
+    },
+    {
+      "publicationSetName": "201026",
+      "amount": 135000,
+      "publicationDate": "2020-10-26T00:00:00",
+      "incomeBand": 100000,
+      "change": 15000,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "201012",
+      "amount": 120000,
+      "publicationDate": "2020-10-12T00:00:00",
+      "incomeBand": 100000,
+      "change": 11000,
+      "changeBand": 10000
+    },
+    {
+      "publicationSetName": "200928",
+      "amount": 109000,
+      "publicationDate": "2020-09-28T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200914",
+      "amount": 109000,
+      "publicationDate": "2020-09-14T00:00:00",
+      "incomeBand": 100000,
+      "change": 0,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200901",
+      "amount": 109000,
+      "publicationDate": "2020-09-01T00:00:00",
+      "incomeBand": 100000,
+      "change": -48144.99,
+      "changeBand": -25000
+    },
+    {
+      "publicationSetName": "200810",
+      "amount": 157144.99,
+      "publicationDate": "2020-08-10T00:00:00",
+      "incomeBand": 100000,
+      "change": -35000.00,
+      "changeBand": -25000
+    },
+    {
+      "publicationSetName": "200720",
+      "amount": 192144.99,
+      "publicationDate": "2020-07-20T00:00:00",
+      "incomeBand": 100000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200706",
+      "amount": 192144.99,
+      "publicationDate": "2020-07-06T00:00:00",
+      "incomeBand": 100000,
+      "change": -177000.00,
+      "changeBand": -100000
+    },
+    {
+      "publicationSetName": "200622",
+      "amount": 369144.99,
+      "publicationDate": "2020-06-22T00:00:00",
+      "incomeBand": 250000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200608",
+      "amount": 369144.99,
+      "publicationDate": "2020-06-08T00:00:00",
+      "incomeBand": 250000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "200526",
+      "amount": 369144.99,
+      "publicationDate": "2020-05-26T00:00:00",
+      "incomeBand": 250000,
+      "change": 10000.00,
+      "changeBand": 10000
+    },
     {
       "publicationSetName": "200511",
       "amount": 359144.99,

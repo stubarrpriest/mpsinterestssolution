@@ -1,0 +1,42 @@
+{
+  "identifier": "mortimer_jill",
+  "name": "MORTIMER, JILL",
+  "currentValue": 1000,
+  "historicalValue": 1000,
+  "latestEntryDate": "2021-07-26T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "210726",
+      "amount": 6159.66,
+      "publicationDate": "2021-07-26T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210712",
+      "amount": 6159.66,
+      "publicationDate": "2021-07-12T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210628",
+      "amount": 6159.66,
+      "publicationDate": "2021-06-28T00:00:00",
+      "incomeBand": 1000,
+      "change": 0.00,
+      "changeBand": 0
+    },
+    {
+      "publicationSetName": "210614",
+      "amount": 6159.66,
+      "publicationDate": "2021-06-14T00:00:00",
+      "incomeBand": 1000,
+      "change": 6159.66,
+      "changeBand": 1000
+    }
+  ],
+  "gitHubPathHash": "07b41cea0c2ba6268ef639c178ba7f6c"
+}

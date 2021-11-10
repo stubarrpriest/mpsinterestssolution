@@ -1,0 +1,18 @@
+{
+  "identifier": "leadbeater_kim",
+  "name": "LEADBEATER, KIM",
+  "currentValue": 10000,
+  "historicalValue": 10000,
+  "latestEntryDate": "2021-07-26T00:00:00",
+  "publicationSets": [
+    {
+      "publicationSetName": "210726",
+      "amount": 10000,
+      "publicationDate": "2021-07-26T00:00:00",
+      "incomeBand": 10000,
+      "change": 10000,
+      "changeBand": 10000
+    }
+  ],
+  "gitHubPathHash": "89ac1b843871c86e6d0ab1b1e978a3e1"
+}

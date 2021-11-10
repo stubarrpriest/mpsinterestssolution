@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrPriest.Mps.Interests.Ingest.Cli", "BarrPriest.Mps.Interests.Ingest.Cli\BarrPriest.Mps.Interests.Ingest.Cli.csproj", "{E85C80C4-A24F-4569-8368-75E1C8CB2716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarrPriest.Mps.Interests.Ingest.Cli", "BarrPriest.Mps.Interests.Ingest.Cli\BarrPriest.Mps.Interests.Ingest.Cli.csproj", "{E85C80C4-A24F-4569-8368-75E1C8CB2716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrPriest.MPs.Interests.Examine.Cli", "BarrPriest.MPs.Interests.Examine.Cli\BarrPriest.MPs.Interests.Examine.Cli.csproj", "{C865146A-1B61-4EEE-9674-9BAADDAE72F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{E85C80C4-A24F-4569-8368-75E1C8CB2716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E85C80C4-A24F-4569-8368-75E1C8CB2716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E85C80C4-A24F-4569-8368-75E1C8CB2716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C865146A-1B61-4EEE-9674-9BAADDAE72F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C865146A-1B61-4EEE-9674-9BAADDAE72F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C865146A-1B61-4EEE-9674-9BAADDAE72F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C865146A-1B61-4EEE-9674-9BAADDAE72F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
